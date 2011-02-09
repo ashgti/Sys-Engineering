@@ -1,0 +1,766 @@
+TAcousticMessage
+v7
+r0
+t318439502.520648
+cCheck dependencies
+cProcessInfoPlistFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/Info.plist SoftModemTerminal-Info.plist
+cCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib
+cCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/MainView.xib
+cCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/AcousticMessage.app/icon.png icon.png
+cProcessPCH /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/main.o /Users/john/Projects/arms22/SoftModemTerminal/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/SoftModemTerminalAppDelegate.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MainViewController.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FlipsideViewController.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioQueueObject.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalAnalyzer.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalGenerator.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKRecognizer.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MultiDelegate.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKSerialGenerator.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage normal i386
+cGenerateDSYMFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app.dSYM /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage
+cTouch /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004D407EE50000000000000110
+t1296072421
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004BD2005600000000000102F0
+t1272053846
+s66288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioSession.h
+c000000004BD200550000000000000806
+t1272053845
+s2054
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BD2001C0000000000193D80
+t1272053788
+s1654144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BD1FFCD0000000000000A22
+t1272053709
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/ctype.h
+c000000004748A1320000000000002C3A
+t1195942194
+s11322
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/libkern/OSAtomic.h
+c000000004748A13100000000000024B9
+t1195942193
+s9401
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/objc/runtime.h
+c000000004BD1FE3C00000000000053F9
+t1272053308
+s21497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioSession.h
+c000000004CC12884000000000000094C
+t1287727236
+s2380
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/ctype.h
+c000000004CB3E4860000000000002C18
+t1286857862
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libkern/OSAtomic.h
+c000000004CB3E4860000000000002519
+t1286857862
+s9497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/runtime.h
+c000000004CB9357000000000000053F9
+t1287206256
+s21497
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.h
+c000000004D3E2ED8000000000000025F
+t1295920856
+s607
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m
+c000000004D3E2ED80000000000000294
+t1295920856
+s660
+i"AudioQueueObject.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.h
+c000000004D3E2ED800000000000003FF
+t1295920856
+s1023
+i"AudioQueueObject.h"
+i"PatternRecognizer.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m
+c000000004D3E2ED80000000000001BB2
+t1295920856
+s7090
+i"AudioSignalAnalyzer.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.h
+c000000004D3E2ED80000000000000422
+t1295920856
+s1058
+i"AudioQueueObject.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m
+c000000004D3E2ED80000000000000B98
+t1295920856
+s2968
+i<AudioToolbox/AudioToolbox.h>
+i"AudioQueueObject.h"
+i"AudioSignalGenerator.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/CharReceiver.h
+c000000004D3E2ED800000000000000FA
+t1295920856
+s250
+i<Foundation/Foundation.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKByteQueue.h
+c000000004D3E2ED80000000000000113
+t1295920856
+s275
+i"lockfree.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKModemConfig.h
+c000000004D3E2ED80000000000000269
+t1295920856
+s617
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.h
+c000000004D3E2ED80000000000000358
+t1295920856
+s856
+i"PatternRecognizer.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm
+c000000004D3E2ED80000000000001121
+t1295920856
+s4385
+i"FSKModemConfig.h"
+i"FSKRecognizer.h"
+i"FSKByteQueue.h"
+i"MultiDelegate.h"
+i"CharReceiver.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.h
+c000000004D3E2ED80000000000000210
+t1295920856
+s528
+i"AudioSignalGenerator.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm
+c000000004D3E2ED80000000000000FF5
+t1295920856
+s4085
+i"FSKModemConfig.h"
+i"FSKSerialGenerator.h"
+i"FSKByteQueue.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.h
+c000000004D3E2ED8000000000000022C
+t1295920856
+s556
+i<UIKit/UIKit.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m
+c000000004D3E2ED80000000000000450
+t1295920856
+s1104
+i"FlipsideViewController.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.h
+c000000004D3E2ED800000000000001D6
+t1295920856
+s470
+i"FlipsideViewController.h"
+i"CharReceiver.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m
+c000000004D3E2ED800000000000018A2
+t1295920856
+s6306
+i"MainViewController.h"
+i"SoftModemTerminalAppDelegate.h"
+i"FSKSerialGenerator.h"
+i<ctype.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.h
+c000000004D3E2ED8000000000000015C
+t1295920856
+s348
+i<Foundation/Foundation.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m
+c000000004D3E2ED800000000000004B4
+t1295920856
+s1204
+i"MultiDelegate.h"
+i<objc/runtime.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/PatternRecognizer.h
+c000000004D3E2ED8000000000000016A
+t1295920856
+s362
+i<Foundation/Foundation.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.h
+c000000004D3E2ED80000000000000374
+t1295920856
+s884
+i<UIKit/UIKit.h>
+i<AVFoundation/AVAudioSession.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m
+c000000004D3E2ED800000000000009DE
+t1295920856
+s2526
+i"SoftModemTerminalAppDelegate.h"
+i"MainViewController.h"
+i"AudioSignalAnalyzer.h"
+i"FSKSerialGenerator.h"
+i"FSKRecognizer.h"
+
+N/Users/john/Projects/arms22/SoftModemTerminal/Classes/lockfree.h
+c000000004D3E2ED800000000000021D4
+t1295920856
+s8660
+i<libkern/OSAtomic.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/English.lproj/InfoPlist.strings
+c000000004D40911B0000000000000000
+t1296077083
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib
+c000000004D3E2ED800000000000051AF
+t1295920856
+s20911
+
+N/Users/john/Projects/arms22/SoftModemTerminal/MainView.xib
+c000000004D3E2ED800000000000062B3
+t1295920856
+s25267
+
+N/Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib
+c000000004D3E2ED80000000000003CED
+t1295920856
+s15597
+
+N/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch
+c000000004D3E2ED80000000000000154
+t1295920856
+s340
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app
+t1296076759
+s374
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app.dSYM
+t1296076407
+s102
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage
+t1296076407
+s71820
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/FlipsideView.nib
+t1296076399
+s2076
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/Info.plist
+t1296076398
+s690
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/MainView.nib
+t1296076399
+s3437
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/MainWindow.nib
+t1296076400
+s1554
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/PkgInfo
+t1296076398
+s8
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/icon.png
+t1296076759
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/ja.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AcousticMessage.LinkFileList
+c000000004D408AAA0000000000000641
+t1296075434
+s1601
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioQueueObject.o
+t1296076406
+s10980
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalAnalyzer.o
+t1296076406
+s23672
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalGenerator.o
+t1296076406
+s21112
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKRecognizer.o
+t1296076406
+s37004
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKSerialGenerator.o
+t1296076407
+s35904
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FlipsideViewController.o
+t1296076406
+s40832
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MainViewController.o
+t1296076406
+s62156
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MultiDelegate.o
+t1296076406
+s12460
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/SoftModemTerminalAppDelegate.o
+t1296076405
+s64000
+
+N/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/main.o
+t1296076405
+s6316
+
+N/Users/john/Projects/arms22/SoftModemTerminal/icon.png
+c000000004D408FD20000000000000000
+t1296076754
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/ja.lproj/InfoPlist.strings
+c000000004D4090710000000000000000
+t1296076913
+s0
+
+N/Users/john/Projects/arms22/SoftModemTerminal/main.m
+c000000004D3E2ED8000000000000016E
+t1295920856
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-buzvgmviicciyycdkeregwivhkbk/SoftModemTerminal_Prefix.pch.gch
+t1296075497
+s13830032
+
+N/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-cltvrmxpwnxmylahvkpntjjraito/SoftModemTerminal_Prefix.pch.gch
+t1296075497
+s14796656
+
+N/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch.gch
+t1296076405
+s16510032
+
+N/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch.gch
+t1296076404
+s15477968
+
+NSoftModemTerminal-Info.plist
+c000000004D3E2ED800000000000003CC
+t1295920856
+s972
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318439502#318439502#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioQueueObject.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769206.088647
+e317769206.360418
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioQueueObject.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m317769206#317769206#0(0"0(0#0#72"/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m8616573728#2201"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioQueueObject.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioQueueObject.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalAnalyzer.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769206.198586
+e317769206.613455
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalAnalyzer.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m317769206#317769206#0(0"0(0#0#75"/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m8605288032#2207"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalAnalyzer.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalAnalyzer.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalGenerator.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769206.360519
+e317769206.610921
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalGenerator.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m317769206#317769206#0(0"0(0#0#76"/Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m8592641728#2209"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/AudioSignalGenerator.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AudioSignalGenerator.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKRecognizer.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s317769206.611119
+e317769206.927657
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKRecognizer.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm: In function 'void -[FSKRecognizer addReceiver:](FSKRecognizer*, objc_selector*, objc_object*)':
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm:44: warning: '-addDelegate:' not found in protocol(s)
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm: In function 'void -[FSKRecognizer dealloc](FSKRecognizer*, objc_selector*)':
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm:222: warning: '-release' not found in protocol(s)
+lSLF07#2@78"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm317769206#317769206#0(563"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm: In function 'void -[FSKRecognizer addReceiver:](FSKRecognizer*, objc_selector*, objc_object*)':/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm:44: warning: '-addDelegate:' not found in protocol(s)/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm: In function 'void -[FSKRecognizer dealloc](FSKRecognizer*, objc_selector*)':/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm:222: warning: '-release' not found in protocol(s)2(22@40"'-addDelegate:' not found in protocol(s)317769206#168#125#0(6@70"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm317613656#44#0#44#0#28"'*' not found in protocol(s)0(22@35"'-release' not found in protocol(s)317769206#442#121#0(6@70"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm317613656#222#0#222#0#28"'*' not found in protocol(s)0(0#0#70"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm8616594752#2217"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKRecognizer.mm -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKRecognizer.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKSerialGenerator.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s317769206.818591
+e317769207.144867
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKSerialGenerator.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm317769206#317769207#0(0"0(0#0#75"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm8599560352#2227"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/FSKSerialGenerator.mm -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FSKSerialGenerator.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FlipsideViewController.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769205.936152
+e317769206.088550
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m317769205#317769206#0(0"0(0#0#78"/Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m8599773216#2213"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/FlipsideViewController.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MainViewController.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769205.827498
+e317769206.198492
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MainViewController.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m: In function '-[MainViewController textFieldShouldReturn:]':
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m:123: warning: pointer targets in passing argument 1 of 'writeBytes:length:' differ in signedness
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m: In function '-[MainViewController receivedChar:]':
+o/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m:143: warning: pointer targets in passing argument 1 of 'stringWithUTF8String:' differ in signedness
+lSLF07#2@82"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m317769205#317769206#0(610"/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m: In function '-[MainViewController textFieldShouldReturn:]':/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m:123: warning: pointer targets in passing argument 1 of 'writeBytes:length:' differ in signedness/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m: In function '-[MainViewController receivedChar:]':/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m:143: warning: pointer targets in passing argument 1 of 'stringWithUTF8String:' differ in signedness2(22@82"Pointer targets in passing argument 1 of 'writeBytes:length:' differ in signedness317769205#136#172#0(6@74"/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m317613656#123#0#123#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@85"Pointer targets in passing argument 1 of 'stringWithUTF8String:' differ in signedness317769205#435#175#0(6@74"/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m317613656#143#0#143#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m8614730912#2205"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/MainViewController.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MultiDelegate.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769206.613555
+e317769206.818491
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MultiDelegate.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m317769206#317769206#0(0"0(0#0#69"/Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m8605563936#2195"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/MultiDelegate.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/MultiDelegate.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/SoftModemTerminalAppDelegate.o /Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769205.614069
+e317769205.936058
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/SoftModemTerminalAppDelegate.o
+x/Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m317769205#317769205#0(0"0(0#0#84"/Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m8592641536#2225"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/Classes/SoftModemTerminalAppDelegate.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/SoftModemTerminalAppDelegate.o0#
+
+CCompileC build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/main.o /Users/john/Projects/arms22/SoftModemTerminal/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769205.611807
+e317769205.827400
+r1
+xCompileC
+xbuild/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/main.o
+x/Users/john/Projects/arms22/SoftModemTerminal/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/john/Projects/arms22/SoftModemTerminal/main.m317769205#317769205#0(0"0(0#0#52"/Users/john/Projects/arms22/SoftModemTerminal/main.m8597211520#2169"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -include /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch -c /Users/john/Projects/arms22/SoftModemTerminal/main.m -o /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib
+s317769198.164682
+e317769199.731011
+r1
+xCompileXIB
+x/Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@27"CompileXIB FlipsideView.xib317769198#317769199#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib8611692768#605"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/FlipsideView.nib /Users/john/Projects/arms22/SoftModemTerminal/FlipsideView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/MainView.xib
+s317769198.181784
+e317769199.766728
+r1
+xCompileXIB
+x/Users/john/Projects/arms22/SoftModemTerminal/MainView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@23"CompileXIB MainView.xib317769198#317769199#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#58"/Users/john/Projects/arms22/SoftModemTerminal/MainView.xib8611392064#597"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/MainView.nib /Users/john/Projects/arms22/SoftModemTerminal/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib
+s317769199.731215
+e317769200.669259
+r1
+xCompileXIB
+x/Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317769199#317769200#0(0"0(0#0#60"/Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib8612022656#601"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/MainWindow.nib /Users/john/Projects/arms22/SoftModemTerminal/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyStringsFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317769743.634511
+e317769743.723666
+r0
+xCopyStringsFile
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+oEnglish.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length data
+oEnglish.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length data
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317769743#317769743#0(267"English.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length dataEnglish.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length dataCommand /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 11(4@120"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1317769743#18446744073709551615#0#0(1@0"0(0#0#77"/Users/john/Projects/arms22/SoftModemTerminal/English.lproj/InfoPlist.strings8599051648#515"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/InfoPlist.strings --outdir /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/English.lproj1#
+
+CCopyStringsFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/ja.lproj/InfoPlist.strings ja.lproj/InfoPlist.strings
+s317769743.636253
+e317769743.721149
+r0
+xCopyStringsFile
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/ja.lproj/InfoPlist.strings
+xja.lproj/InfoPlist.strings
+oja.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length data
+oja.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length data
+lSLF07#2@31"Copy ja.lproj/InfoPlist.strings317769743#317769743#0(257"ja.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length dataja.lproj/InfoPlist.strings: Cannot parse a NULL or zero-length dataCommand /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 11(4@120"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1317769743#18446744073709551615#0#0(1@0"0(0#0#72"/Users/john/Projects/arms22/SoftModemTerminal/ja.lproj/InfoPlist.strings8615082016#506"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding binary ja.lproj/InfoPlist.strings --outdir /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/ja.lproj1#
+
+CCpResource build/Debug-iphonesimulator/AcousticMessage.app/icon.png icon.png
+s317769559.238751
+e317769559.250664
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AcousticMessage.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png317769559#317769559#0(0"0(0#0#54"/Users/john/Projects/arms22/SoftModemTerminal/icon.png8612699488#495"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/john/Projects/arms22/SoftModemTerminal/icon.png /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app0#
+
+CGenerateDSYMFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app.dSYM /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage
+s317769207.770593
+e317769207.857429
+r1
+xGenerateDSYMFile
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app.dSYM
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/AcousticMessage.app.dSYM build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage317769207#317769207#0(0"0(0#0#109"/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage8600163904#428"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage -o /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app.dSYM0#
+
+CLd /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage normal i386
+s317769207.144958
+e317769207.770495
+r1
+xLd
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage
+xnormal
+xi386
+lSLF07#2@114"Link /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage317769207#317769207#0(0"0(0#0#0"8611174144#1025"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -filelist /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/Objects-normal/i386/AcousticMessage.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -o /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/AcousticMessage0#
+
+CProcessInfoPlistFile /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/Info.plist SoftModemTerminal-Info.plist
+s317769198.149629
+e317769198.164590
+r1
+xProcessInfoPlistFile
+x/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/Info.plist
+xSoftModemTerminal-Info.plist
+lSLF07#2@36"Process SoftModemTerminal-Info.plist317769198#317769198#0(0"0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal-Info.plist8612106816#526"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SoftModemTerminal-Info.plist -genpkginfo /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app/Info.plist0#
+
+CProcessPCH /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-buzvgmviicciyycdkeregwivhkbk/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317768278.939805
+e317768300.341449
+r1
+xProcessPCH
+x/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-buzvgmviicciyycdkeregwivhkbk/SoftModemTerminal_Prefix.pch.gch
+xSoftModemTerminal_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@39"Precompile SoftModemTerminal_Prefix.pch317768278#317768300#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch8611420672#2087"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -c /Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch -o /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-buzvgmviicciyycdkeregwivhkbk/SoftModemTerminal_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317769200.669393
+e317769205.065373
+r1
+xProcessPCH
+x/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch.gch
+xSoftModemTerminal_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SoftModemTerminal_Prefix.pch317769200#317769205#0(0"0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch8590454304#2046"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -c /Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch -o /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-gbuqsfidsuttjyauqcjddydzedau/SoftModemTerminal_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-cltvrmxpwnxmylahvkpntjjraito/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s317768278.996603
+e317768300.570926
+r1
+xProcessPCH++
+x/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-cltvrmxpwnxmylahvkpntjjraito/SoftModemTerminal_Prefix.pch.gch
+xSoftModemTerminal_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@39"Precompile SoftModemTerminal_Prefix.pch317768278#317768300#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch8611257792#2108"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -c /Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch -o /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-cltvrmxpwnxmylahvkpntjjraito/SoftModemTerminal_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch.gch SoftModemTerminal_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s317769200.671455
+e317769205.611705
+r1
+xProcessPCH++
+x/var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch.gch
+xSoftModemTerminal_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SoftModemTerminal_Prefix.pch317769200#317769205#0(0"0(0#0#74"/Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch8611089984#2067"    cd /Users/john/Projects/arms22/SoftModemTerminal    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-generated-files.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-own-target-headers.hmap -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-all-target-headers.hmap -iquote /Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/AcousticMessage-project-headers.hmap -F/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator -I/Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/include -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources/i386 -I/Users/john/Projects/arms22/SoftModemTerminal/build/SoftModemTerminal.build/Debug-iphonesimulator/AcousticMessage.build/DerivedSources -c /Users/john/Projects/arms22/SoftModemTerminal/SoftModemTerminal_Prefix.pch -o /var/folders/1G/1GdkNkqHHWWPWqp+0KnbNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SoftModemTerminal_Prefix-ffumedwrwrtzajdlvfqmtnmmnpms/SoftModemTerminal_Prefix.pch.gch0#
+
+CTouch /Users/john/Projects/arms22/SoftModemTerminal/build/Debug-iphonesimulator/AcousticMessage.app
+r0
+
