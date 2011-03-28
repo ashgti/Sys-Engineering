@@ -1,0 +1,526 @@
+TWiFi
+v7
+r0
+t322019732.860074
+cCheck dependencies
+cCpResource build/Debug-iphoneos/WiFi.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/Info.plist WiFi-Info.plist
+cCompileXIB /Users/adamjeter/Documents/WiFi/MainWindow.xib
+cCompileXIB /Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+cProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/main.o /Users/adamjeter/Documents/WiFi/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/AsyncUdpSocket.o /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/main.o /Users/adamjeter/Documents/WiFi/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi normal armv6
+cCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/AsyncUdpSocket.o /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi normal armv7
+cCreateUniversalBinary /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi normal "armv6 armv7"
+cGenerateDSYMFile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app.dSYM /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi
+cProcessProductPackaging "/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision" /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision
+cTouch /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent
+cCodeSign /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC10EAD00000000000004CF
+t1287720621
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/net/if.h
+c000000004CBFACDC00000000000035E3
+t1287630044
+s13795
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netdb.h
+c000000004CB3E4A0000000000000307F
+t1286857888
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACDD0000000000005462
+t1287630045
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/ioctl.h
+c000000004CBFACD7000000000000116C
+t1287630039
+s4460
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.h
+c000000004D7D23B900000000000037FF
+t1300046777
+s14335
+i<Foundation/Foundation.h>
+
+N/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m
+c000000004D7D23B900000000000102DE
+t1300046777
+s66270
+i"AsyncUdpSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<sys/ioctl.h>
+i<net/if.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.h
+c000000004D7ED26000000000000001CB
+t1300157024
+s459
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m
+c000000004D8163120000000000000A9B
+t1300325138
+s2715
+i"WiFiAppDelegate.h"
+i"WiFiViewController.h"
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.h
+c000000004D802E49000000000000030D
+t1300246089
+s781
+i<UIKit/UIKit.h>
+i"AsyncUdpSocket.h"
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m
+c000000004D816A140000000000000C06
+t1300326932
+s3078
+i"WiFiViewController.h"
+i"AsyncUDPSocket.h"
+
+N/Users/adamjeter/Documents/WiFi/MainWindow.xib
+c000000004D7ED2600000000000004E05
+t1300157024
+s19973
+
+N/Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+c000000004D801BCD0000000000007F61
+t1300241357
+s32609
+
+N/Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch
+c000000004D7ED26100000000000000B1
+t1300157025
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+t1300326932
+s374
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app.dSYM
+t1300326932
+s102
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/Info.plist
+t1300157759
+s769
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/MainWindow.nib
+t1300157760
+s1117
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/PkgInfo
+t1300157759
+s8
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/ResourceRules.plist
+t1300157759
+s485
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi
+t1300326932
+s180032
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFiViewController.nib
+t1300247631
+s2758
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision
+t1300157762
+s7298
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/AsyncUdpSocket.o
+t1300247632
+s118972
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi
+t1300326932
+s83768
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi.LinkFileList
+c000000004D80344E00000000000001BF
+t1300247630
+s447
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiAppDelegate.o
+t1300325164
+s51880
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiViewController.o
+t1300326932
+s55436
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/main.o
+t1300157761
+s6432
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/AsyncUdpSocket.o
+t1300247633
+s115372
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi
+t1300326932
+s79624
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi.LinkFileList
+c000000004D80344E00000000000001BF
+t1300247630
+s447
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiAppDelegate.o
+t1300325165
+s51796
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiViewController.o
+t1300326932
+s55172
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/main.o
+t1300157761
+s6416
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent
+t1300157762
+s414
+
+N/Users/adamjeter/Documents/WiFi/main.m
+c000000004D7ED2610000000000000164
+t1300157025
+s356
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision
+c000000004D753AFD0000000000001C82
+t1299528445
+s7298
+
+N/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch.gch
+t1300157761
+s10446552
+
+N/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch.gch
+t1300157761
+s9983704
+
+NWiFi-Info.plist
+c000000004D7ED261000000000000038D
+t1300157025
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322019732#322019732#0(0"0(0#1#0"8782190016#0"0#
+
+CCodeSign /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+s322019732.663594
+e322019732.860032
+r1
+xCodeSign
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/WiFi.app322019732#322019732#0(0"0(0#0#61"/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app8781315840#606"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: John Harrison (D6Y82LF9YX)" --resource-rules=/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/ResourceRules.plist --entitlements /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/AsyncUdpSocket.o /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321940432.127782
+e321940432.764164
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/AsyncUdpSocket.o
+x/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m321940432#321940432#0(0"0(0#0#56"/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m8611379040#1615"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv6 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/AsyncUdpSocket.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322017964.383019
+e322017964.500633
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiAppDelegate.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m322017964#322017964#0(0"0(0#0#57"/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m8634573920#1617"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv6 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiAppDelegate.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322019732.235737
+e322019732.510136
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiViewController.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m322019732#322019732#0(0"0(0#0#60"/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m8779258464#1623"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv6 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFiViewController.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/main.o /Users/adamjeter/Documents/WiFi/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321850561.469836
+e321850561.658436
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/main.o
+x/Users/adamjeter/Documents/WiFi/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/adamjeter/Documents/WiFi/main.m321850561#321850561#0(0"0(0#0#38"/Users/adamjeter/Documents/WiFi/main.m8614556320#1587"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv6 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/main.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/AsyncUdpSocket.o /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321940433.003271
+e321940433.373707
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/AsyncUdpSocket.o
+x/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m321940433#321940433#0(0"0(0#0#56"/Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m8727000992#1615"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv7 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/AsyncUdpSocket.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/AsyncUdpSocket.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322017964.501357
+e322017965.020675
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiAppDelegate.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m322017964#322017965#0(0"0(0#0#57"/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m8777531392#1617"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv7 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiAppDelegate.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322019732.237178
+e322019732.532094
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiViewController.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m322019732#322019732#0(0"0(0#0#60"/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m8772559904#1623"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv7 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFiViewController.o0#
+
+CCompileC build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/main.o /Users/adamjeter/Documents/WiFi/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321850561.680360
+e321850561.752436
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/main.o
+x/Users/adamjeter/Documents/WiFi/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/adamjeter/Documents/WiFi/main.m321850561#321850561#0(0"0(0#0#38"/Users/adamjeter/Documents/WiFi/main.m8615488352#1587"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv7 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/main.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/adamjeter/Documents/WiFi/MainWindow.xib
+s321850559.919999
+e321850560.395909
+r1
+xCompileXIB
+x/Users/adamjeter/Documents/WiFi/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321850559#321850560#0(0"0(0#0#46"/Users/adamjeter/Documents/WiFi/MainWindow.xib8781485376#518"    cd /Users/adamjeter/Documents/WiFi    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/MainWindow.nib /Users/adamjeter/Documents/WiFi/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+s321940430.394456
+e321940431.987694
+r1
+xCompileXIB
+x/Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+lSLF07#2@33"CompileXIB WiFiViewController.xib321940430#321940431#0(0"0(0#0#54"/Users/adamjeter/Documents/WiFi/WiFiViewController.xib8777307104#534"    cd /Users/adamjeter/Documents/WiFi    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFiViewController.nib /Users/adamjeter/Documents/WiFi/WiFiViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/WiFi.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321850559.887172
+e321850559.919690
+r1
+xCpResource
+xbuild/Debug-iphoneos/WiFi.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321850559#321850559#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8781750272#477"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app0#
+
+CCreateUniversalBinary /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi normal "armv6 armv7"
+s322019732.614545
+e322019732.620412
+r1
+xCreateUniversalBinary
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/WiFi.app/WiFi normal "armv6 armv7"322019732#322019732#0(0"0(0#0#43"/Users/adamjeter/Documents/WiFi/armv6 armv78659183200#466"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi -output /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi0#
+
+CGenerateDSYMFile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app.dSYM /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi
+s322019732.620523
+e322019732.660346
+r1
+xGenerateDSYMFile
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app.dSYM
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/WiFi.app.dSYM build/Debug-iphoneos/WiFi.app/WiFi322019732#322019732#0(0"0(0#0#66"/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi8619122944#332"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/WiFi -o /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app.dSYM0#
+
+CLd /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi normal armv6
+s322019732.510253
+e322019732.582593
+r1
+xLd
+x/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi
+xnormal
+xarmv6
+lSLF07#2@105"Link /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi322019732#322019732#0(0"0(0#0#0"8751532768#827"    cd /Users/adamjeter/Documents/WiFi    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -filelist /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv6/WiFi0#
+
+CLd /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi normal armv7
+s322019732.532302
+e322019732.614440
+r1
+xLd
+x/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi
+xnormal
+xarmv7
+lSLF07#2@105"Link /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi322019732#322019732#0(0"0(0#0#0"8734489216#827"    cd /Users/adamjeter/Documents/WiFi    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -filelist /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/Objects-normal/armv7/WiFi0#
+
+CProcessInfoPlistFile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/Info.plist WiFi-Info.plist
+s321850559.889293
+e321850559.916995
+r1
+xProcessInfoPlistFile
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/Info.plist
+xWiFi-Info.plist
+lSLF07#2@23"Process WiFi-Info.plist321850559#321850559#0(0"0(0#0#47"/Users/adamjeter/Documents/WiFi/WiFi-Info.plist8781775008#522"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WiFi-Info.plist -genpkginfo /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/ResourceRules.plist -o /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/Info.plist0#
+
+CProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321850560.397068
+e321850561.324937
+r1
+xProcessPCH
+x/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch.gch
+xWiFi_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile WiFi_Prefix.pch321850560#321850561#0(0"0(0#0#47"/Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch8743886592#1495"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv7 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -c /Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch -o /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-gymtwmtjssnyjmckcqqhbbljpurv/WiFi_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321850560.396033
+e321850561.469608
+r1
+xProcessPCH
+x/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch.gch
+xWiFi_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile WiFi_Prefix.pch321850560#321850561#0(0"0(0#0#47"/Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch8747553728#1495"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos -I/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources/armv6 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/DerivedSources -c /Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch -o /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hfdxhxgnqahjvudhczrdedbapope/WiFi_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision" /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision
+s321850562.102877
+e321850562.128523
+r1
+xProcessProductPackaging
+x/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision" build/Debug-iphoneos/WiFi.app/embedded.mobileprovision321850562#321850562#0(0"0(0#0#86"/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision8707256192#410"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/adamjeter/Library/MobileDevice/Provisioning Profiles/3FDB0ECA-48A6-4774-A5ED-D73E1F31CAFC.mobileprovision" -o /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent
+s321850562.133902
+e321850562.151361
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent321850562#321850562#0(0"0(0#0#85"/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent8621110592#409"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphoneos/WiFi.build/WiFi.xcent0#
+
+CTouch /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+s322019732.660535
+e322019732.663430
+r1
+xTouch
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app
+lSLF07#2@67"Touch /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app322019732#322019732#0(0"0(0#0#0"8781804192#247"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamjeter/Documents/WiFi/build/Debug-iphoneos/WiFi.app0#
+

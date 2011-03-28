@@ -1,0 +1,258 @@
+TWiFi
+v7
+r0
+t321851160.746241
+cCheck dependencies
+cProcessInfoPlistFile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/Info.plist WiFi-Info.plist
+cCompileXIB /Users/adamjeter/Documents/WiFi/MainWindow.xib
+cCompileXIB /Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+cProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/main.o /Users/adamjeter/Documents/WiFi/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi normal i386
+cGenerateDSYMFile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app.dSYM /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi
+cTouch /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.h
+c000000004D7ED26000000000000001CB
+t1300157024
+s459
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m
+c000000004D7ED2600000000000000A84
+t1300157024
+s2692
+i"WiFiAppDelegate.h"
+i"WiFiViewController.h"
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.h
+c000000004D7ED53F00000000000002D1
+t1300157759
+s721
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m
+c000000004D7ED7960000000000000709
+t1300158358
+s1801
+i"WiFiViewController.h"
+
+N/Users/adamjeter/Documents/WiFi/MainWindow.xib
+c000000004D7ED2600000000000004E05
+t1300157024
+s19973
+
+N/Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+c000000004D7ED64B0000000000007678
+t1300158027
+s30328
+
+N/Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch
+c000000004D7ED26100000000000000B1
+t1300157025
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app
+t1300158360
+s238
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app.dSYM
+t1300158360
+s102
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/Info.plist
+t1300158358
+s579
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/MainWindow.nib
+t1300158359
+s1117
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/PkgInfo
+t1300158358
+s8
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi
+t1300158360
+s18936
+
+N/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFiViewController.nib
+t1300158359
+s2588
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFi.LinkFileList
+c000000004D7ED7960000000000000160
+t1300158358
+s352
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiAppDelegate.o
+t1300158360
+s50844
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiViewController.o
+t1300158360
+s49948
+
+N/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/main.o
+t1300158360
+s6288
+
+N/Users/adamjeter/Documents/WiFi/main.m
+c000000004D7ED2610000000000000164
+t1300157025
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch.gch
+t1300158360
+s15453392
+
+NWiFi-Info.plist
+c000000004D7ED261000000000000038D
+t1300157025
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321851158#321851158#0(0"0(0#1#0"8729570656#0"0#
+
+CCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiAppDelegate.o /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321851160.474066
+e321851160.600757
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiAppDelegate.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m321851160#321851160#0(0"0(0#0#57"/Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m8753749024#1807"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -I/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources/i386 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiAppDelegate.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiAppDelegate.o0#
+
+CCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiViewController.o /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321851160.573541
+e321851160.657076
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiViewController.o
+x/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m: In function '-[WiFiViewController SendPacket]':
+o/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m:21: warning: unused variable 'alert'
+lSLF07#2@68"Compile /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m321851160#321851160#0(208"/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m: In function '-[WiFiViewController SendPacket]':/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m:21: warning: unused variable 'alert'1(22@23"Unused variable 'alert'321851160#110#98#0(6@60"/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m321851158#21#0#21#0#19"unused variable '*'0(0#0#60"/Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m8709414848#1813"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -I/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources/i386 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/Classes/WiFiViewController.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFiViewController.o0#
+
+CCompileC build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/main.o /Users/adamjeter/Documents/WiFi/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321851160.471646
+e321851160.573423
+r1
+xCompileC
+xbuild/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/main.o
+x/Users/adamjeter/Documents/WiFi/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/adamjeter/Documents/WiFi/main.m321851160#321851160#0(0"0(0#0#38"/Users/adamjeter/Documents/WiFi/main.m8755355424#1777"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -I/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources/i386 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources -include /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch -c /Users/adamjeter/Documents/WiFi/main.m -o /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/adamjeter/Documents/WiFi/MainWindow.xib
+s321851158.912259
+e321851159.434469
+r1
+xCompileXIB
+x/Users/adamjeter/Documents/WiFi/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321851158#321851159#0(0"0(0#0#46"/Users/adamjeter/Documents/WiFi/MainWindow.xib8633289728#546"    cd /Users/adamjeter/Documents/WiFi    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/MainWindow.nib /Users/adamjeter/Documents/WiFi/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+s321851158.913284
+e321851159.431995
+r1
+xCompileXIB
+x/Users/adamjeter/Documents/WiFi/WiFiViewController.xib
+lSLF07#2@33"CompileXIB WiFiViewController.xib321851158#321851159#0(0"0(0#0#54"/Users/adamjeter/Documents/WiFi/WiFiViewController.xib8750220224#562"    cd /Users/adamjeter/Documents/WiFi    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFiViewController.nib /Users/adamjeter/Documents/WiFi/WiFiViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app.dSYM /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi
+s321851160.724368
+e321851160.743191
+r1
+xGenerateDSYMFile
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app.dSYM
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/WiFi.app.dSYM build/Debug-iphonesimulator/WiFi.app/WiFi321851160#321851160#0(0"0(0#0#73"/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi8740019776#353"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi -o /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app.dSYM0#
+
+CLd /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi normal i386
+s321851160.657182
+e321851160.724281
+r1
+xLd
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi
+xnormal
+xi386
+lSLF07#2@78"Link /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi321851160#321851160#0(0"0(0#0#0"8616461184#850"    cd /Users/adamjeter/Documents/WiFi    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -F/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -filelist /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/Objects-normal/i386/WiFi.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/WiFi0#
+
+CProcessInfoPlistFile /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/Info.plist WiFi-Info.plist
+s321851158.907463
+e321851158.912155
+r1
+xProcessInfoPlistFile
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/Info.plist
+xWiFi-Info.plist
+lSLF07#2@23"Process WiFi-Info.plist321851158#321851158#0(0"0(0#0#47"/Users/adamjeter/Documents/WiFi/WiFi-Info.plist8636995488#449"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WiFi-Info.plist -genpkginfo /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app/Info.plist0#
+
+CProcessPCH /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch.gch WiFi_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321851159.434588
+e321851160.471434
+r1
+xProcessPCH
+x/var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch.gch
+xWiFi_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile WiFi_Prefix.pch321851159#321851160#0(0"0(0#0#47"/Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch8625987424#1679"    cd /Users/adamjeter/Documents/WiFi    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-generated-files.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-own-target-headers.hmap -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-all-target-headers.hmap -iquote /Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/WiFi-project-headers.hmap -F/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator -I/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/include -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources/i386 -I/Users/adamjeter/Documents/WiFi/build/WiFi.build/Debug-iphonesimulator/WiFi.build/DerivedSources -c /Users/adamjeter/Documents/WiFi/WiFi_Prefix.pch -o /var/folders/XC/XCGpoWKmHoiKGT9url2BHE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/WiFi_Prefix-hbjocpgcdhaymkbmvbzcufwlgjxs/WiFi_Prefix.pch.gch0#
+
+CTouch /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app
+s321851160.743286
+e321851160.746202
+r1
+xTouch
+x/Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app
+lSLF07#2@74"Touch /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app321851160#321851160#0(0"0(0#0#0"8726404608#261"    cd /Users/adamjeter/Documents/WiFi    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamjeter/Documents/WiFi/build/Debug-iphonesimulator/WiFi.app0#
+

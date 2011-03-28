@@ -1,0 +1,1444 @@
+TMapKitiPhone
+v7
+r0
+t320910666.427624
+cCheck dependencies
+cProcessInfoPlistFile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Info.plist MapKitiPhone-Info.plist
+cCompileXIB /Users/Matt/MapKitiPhone/MainWindow.xib
+cCompileXIB /Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib
+cCompileXIB /Users/Matt/MapKitiPhone/LoginViewController.xib
+cProcessPCH /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch.gch MapKitiPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/main.o /Users/Matt/MapKitiPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneAppDelegate.o /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneViewController.o /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o /Users/Matt/MapKitiPhone/Classes/../LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone normal i386
+cGenerateDSYMFile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app.dSYM /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone
+cTouch /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC6561F00000000000000CD
+t1288066591
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m
+c000000004D64D31C0000000000008F52
+t1298453276
+s36690
+i"IASKAppSettingsViewController.h"
+i"IASKSettingsReader.h"
+i"IASKSettingsStoreUserDefaults.h"
+i"IASKPSToggleSwitchSpecifierViewCell.h"
+i"IASKPSSliderSpecifierViewCell.h"
+i"IASKPSTextFieldSpecifierViewCell.h"
+i"IASKPSTitleValueSpecifierViewCell.h"
+i"IASKSwitch.h"
+i"IASKSlider.h"
+i"IASKSpecifier.h"
+i"IASKSpecifierValuesViewController.h"
+i"IASKTextField.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m
+c000000004D64D31C0000000000001197
+t1298453276
+s4503
+i"IASKAppSettingsWebViewController.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m
+c000000004D64D31C00000000000018DA
+t1298453276
+s6362
+i"IASKSpecifierValuesViewController.h"
+i"IASKSpecifier.h"
+i"IASKSettingsReader.h"
+i"IASKSettingsStoreUserDefaults.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.h
+c000000004D64D31C00000000000018B6
+t1298453276
+s6326
+i<Foundation/Foundation.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m
+c000000004D64D31C000000000000212E
+t1298453276
+s8494
+i"IASKSettingsReader.h"
+i"IASKSpecifier.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.h
+c000000004D64D31C0000000000000559
+t1298453276
+s1369
+i<Foundation/Foundation.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m
+c000000004D64D31C0000000000000825
+t1298453276
+s2085
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m
+c000000004D64D31C0000000000000599
+t1298453276
+s1433
+i"IASKSettingsStoreFile.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.h
+c000000004D64D31C0000000000000369
+t1298453276
+s873
+i<Foundation/Foundation.h>
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m
+c000000004D64D31C0000000000000834
+t1298453276
+s2100
+i"IASKSettingsStoreUserDefaults.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.h
+c000000004D64D31C0000000000000731
+t1298453276
+s1841
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m
+c000000004D64D31C0000000000001B60
+t1298453276
+s7008
+i"IASKSpecifier.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.h
+c000000004D64D31C0000000000000426
+t1298453276
+s1062
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m
+c000000004D64D31C00000000000008E8
+t1298453276
+s2280
+i"IASKPSSliderSpecifierViewCell.h"
+i"IASKSlider.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.h
+c000000004D64D31C00000000000003D6
+t1298453276
+s982
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m
+c000000004D64D31C000000000000067C
+t1298453276
+s1660
+i"IASKPSTextFieldSpecifierViewCell.h"
+i"IASKTextField.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.h
+c000000004D64D31C00000000000002F9
+t1298453276
+s761
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m
+c000000004D64D31C0000000000000823
+t1298453276
+s2083
+i"IASKPSTitleValueSpecifierViewCell.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.h
+c000000004D64D31C00000000000003C5
+t1298453276
+s965
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m
+c000000004D64D31C000000000000051D
+t1298453276
+s1309
+i"IASKPSToggleSwitchSpecifierViewCell.h"
+i"IASKSwitch.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.h
+c000000004D64D31C000000000000030A
+t1298453276
+s778
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m
+c000000004D64D31C0000000000000312
+t1298453276
+s786
+i"IASKSlider.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.h
+c000000004D64D31C000000000000030A
+t1298453276
+s778
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m
+c000000004D64D31C0000000000000313
+t1298453276
+s787
+i"IASKSwitch.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.h
+c000000004D64D31C0000000000000313
+t1298453276
+s787
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m
+c000000004D64D31C000000000000031B
+t1298453276
+s795
+i"IASKTextField.h"
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+c000000004D64D31C0000000000005223
+t1298453276
+s21027
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+c000000004D64D31C0000000000004323
+t1298453276
+s17187
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+c000000004D64D31C000000000000355C
+t1298453276
+s13660
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+c000000004D64D31C00000000000034C8
+t1298453276
+s13512
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+c000000004D64D31C0000000000004B8F
+t1298453276
+s19343
+
+N/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+c000000004D64D31C0000000000002C20
+t1298453276
+s11296
+
+N/Users/Matt/MapKitiPhone/Classes/../LoginViewController.m
+c000000004D707DBC000000000000023E
+t1299217852
+s574
+i"LoginViewController.h"
+i"MapKitiPhoneViewController.h"
+
+N/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.h
+c000000004D707AF600000000000001D2
+t1299217142
+s466
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m
+c000000004D707B2A0000000000000AB0
+t1299217194
+s2736
+i"MapKitiPhoneAppDelegate.h"
+
+N/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.h
+c000000004D707032000000000000036E
+t1299214386
+s878
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m
+c000000004D7070300000000000000C7E
+t1299214384
+s3198
+i"MapKitiPhoneViewController.h"
+i"SettingViewController.h"
+
+N/Users/Matt/MapKitiPhone/Classes/MapViewTouch.h
+c000000004D5E9E4A0000000000000168
+t1298046538
+s360
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/MapViewTouch.m
+c000000004D5E9D53000000000000023C
+t1298046291
+s572
+i"MapViewTouch.h"
+
+N/Users/Matt/MapKitiPhone/Classes/SettingViewController.h
+c000000004D705B5E00000000000000EA
+t1299209054
+s234
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Classes/SettingViewController.m
+c000000004D705B3000000000000005C8
+t1299209008
+s1480
+i"SettingViewController.h"
+
+N/Users/Matt/MapKitiPhone/Classes/SettingViewController.xib
+c000000004D706BA10000000000004923
+t1299213217
+s18723
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.h
+c000000004D64D31C0000000000000C07
+t1298453276
+s3079
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m
+c000000004D64D31C0000000000008F52
+t1298453276
+s36690
+i"IASKAppSettingsViewController.h"
+i"IASKSettingsReader.h"
+i"IASKSettingsStoreUserDefaults.h"
+i"IASKPSToggleSwitchSpecifierViewCell.h"
+i"IASKPSSliderSpecifierViewCell.h"
+i"IASKPSTextFieldSpecifierViewCell.h"
+i"IASKPSTitleValueSpecifierViewCell.h"
+i"IASKSwitch.h"
+i"IASKSlider.h"
+i"IASKSpecifier.h"
+i"IASKSpecifierValuesViewController.h"
+i"IASKTextField.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.h
+c000000004D64D31C000000000000041E
+t1298453276
+s1054
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m
+c000000004D64D31C0000000000001197
+t1298453276
+s4503
+i"IASKAppSettingsWebViewController.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.h
+c000000004D64D31C0000000000000527
+t1298453276
+s1319
+i<UIKit/UIKit.h>
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m
+c000000004D64D31C00000000000018DA
+t1298453276
+s6362
+i"IASKSpecifierValuesViewController.h"
+i"IASKSpecifier.h"
+i"IASKSettingsReader.h"
+i"IASKSettingsStoreUserDefaults.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.h
+c000000004D64D31C00000000000018B6
+t1298453276
+s6326
+i<Foundation/Foundation.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m
+c000000004D64D31C000000000000212E
+t1298453276
+s8494
+i"IASKSettingsReader.h"
+i"IASKSpecifier.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.h
+c000000004D64D31C0000000000000559
+t1298453276
+s1369
+i<Foundation/Foundation.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m
+c000000004D64D31C0000000000000825
+t1298453276
+s2085
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.h
+c000000004D64D31C00000000000003B8
+t1298453276
+s952
+i<Foundation/Foundation.h>
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m
+c000000004D64D31C0000000000000599
+t1298453276
+s1433
+i"IASKSettingsStoreFile.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.h
+c000000004D64D31C0000000000000369
+t1298453276
+s873
+i<Foundation/Foundation.h>
+i"IASKSettingsStore.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m
+c000000004D64D31C0000000000000834
+t1298453276
+s2100
+i"IASKSettingsStoreUserDefaults.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.h
+c000000004D64D31C0000000000000731
+t1298453276
+s1841
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m
+c000000004D64D31C0000000000001B60
+t1298453276
+s7008
+i"IASKSpecifier.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.h
+c000000004D64D31C0000000000000426
+t1298453276
+s1062
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m
+c000000004D64D31C00000000000008E8
+t1298453276
+s2280
+i"IASKPSSliderSpecifierViewCell.h"
+i"IASKSlider.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.h
+c000000004D64D31C00000000000003D6
+t1298453276
+s982
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m
+c000000004D64D31C000000000000067C
+t1298453276
+s1660
+i"IASKPSTextFieldSpecifierViewCell.h"
+i"IASKTextField.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.h
+c000000004D64D31C00000000000002F9
+t1298453276
+s761
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m
+c000000004D64D31C0000000000000823
+t1298453276
+s2083
+i"IASKPSTitleValueSpecifierViewCell.h"
+i"IASKSettingsReader.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.h
+c000000004D64D31C00000000000003C5
+t1298453276
+s965
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m
+c000000004D64D31C000000000000051D
+t1298453276
+s1309
+i"IASKPSToggleSwitchSpecifierViewCell.h"
+i"IASKSwitch.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.h
+c000000004D64D31C000000000000030A
+t1298453276
+s778
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m
+c000000004D64D31C0000000000000312
+t1298453276
+s786
+i"IASKSlider.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.h
+c000000004D64D31C000000000000030A
+t1298453276
+s778
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m
+c000000004D64D31C0000000000000313
+t1298453276
+s787
+i"IASKSwitch.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.h
+c000000004D64D31C0000000000000313
+t1298453276
+s787
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m
+c000000004D64D31C000000000000031B
+t1298453276
+s795
+i"IASKTextField.h"
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+c000000004D64D31C0000000000005223
+t1298453276
+s21027
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+c000000004D64D31C0000000000004323
+t1298453276
+s17187
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+c000000004D64D31C000000000000355C
+t1298453276
+s13660
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+c000000004D64D31C00000000000034C8
+t1298453276
+s13512
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+c000000004D64D31C0000000000004B8F
+t1298453276
+s19343
+
+N/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+c000000004D64D31C0000000000002C20
+t1298453276
+s11296
+
+N/Users/Matt/MapKitiPhone/LoginViewController.h
+c000000004D707DB100000000000001C4
+t1299217841
+s452
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/LoginViewController.m
+c000000004D706E56000000000000023E
+t1299213910
+s574
+i"FirstViewController.h"
+i"SecondViewController.h"
+
+N/Users/Matt/MapKitiPhone/LoginViewController.xib
+c000000004D707D6800000000000062E4
+t1299217768
+s25316
+
+N/Users/Matt/MapKitiPhone/MainWindow.xib
+c000000004D7070A10000000000006F7B
+t1299214497
+s28539
+
+N/Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib
+c000000004D70700F000000000000700F
+t1299214351
+s28687
+
+N/Users/Matt/MapKitiPhone/MapKitiPhone_Prefix.pch
+c000000004D5D49F500000000000000C1
+t1297959413
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Matt/MapKitiPhone/Settings.bundle
+c000000004D7061780000000000000088
+t1299210616
+s136
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app
+t1299217866
+s272
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app.dSYM
+t1299217866
+s102
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsView.nib
+t1299211448
+s1212
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsWebView.nib
+t1299211448
+s969
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSSliderSpecifierViewCell.nib
+t1299211449
+s1848
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSTextFieldSpecifierViewCell.nib
+t1299211449
+s2112
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSToggleSwitchSpecifierViewCell.nib
+t1299211449
+s1961
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKSpecifierValuesView.nib
+t1299211449
+s1212
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Info.plist
+t1299217864
+s611
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/LoginViewController.nib
+t1299217865
+s1686
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MainWindow.nib
+t1299217864
+s1542
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone
+t1299217866
+s26124
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhoneViewController.nib
+t1299217865
+s2332
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/PkgInfo
+t1299217864
+s8
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/SettingViewController.nib
+t1299213281
+s1411
+
+N/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Settings.bundle
+t1299210617
+s136
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o
+t1299211450
+s141668
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o
+t1299211449
+s59876
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o
+t1299211450
+s43096
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o
+t1299211450
+s41532
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o
+t1299211450
+s41268
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o
+t1299211450
+s40160
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o
+t1299211450
+s35796
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o
+t1299211450
+s16232
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o
+t1299211450
+s11148
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o
+t1299211450
+s14200
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o
+t1299211450
+s38272
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o
+t1299211450
+s35992
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o
+t1299211450
+s62204
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o
+t1299211450
+s37828
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o
+t1299211450
+s37836
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o
+t1299217866
+s41732
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhone.LinkFileList
+c000000004D707DC80000000000000210
+t1299217864
+s528
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneAppDelegate.o
+t1299217866
+s52784
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneViewController.o
+t1299217866
+s53076
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapViewTouch.o
+t1298047528
+s37864
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/SettingViewController.o
+t1299210617
+s38504
+
+N/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/main.o
+t1299217866
+s6276
+
+N/Users/Matt/MapKitiPhone/main.m
+c000000004D5D49F50000000000000166
+t1297959413
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch.gch
+t1299217866
+s15453392
+
+NMapKitiPhone-Info.plist
+c000000004D5D49F5000000000000038D
+t1297959413
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320910664#320910664#0(0"0(0#1#0"8621279712#0"0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.010860
+e320903969.316437
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m320903969#320903969#0(0"0(0#0#96"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m8625442208#1950"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904249.822783
+e320904250.113332
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m320904249#320904250#0(0"0(0#0#85"/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m8621363648#1939"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.013031
+e320903969.129437
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m320903969#320903969#0(0"0(0#0#99"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m8625225920#1956"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904249.825283
+e320904249.938403
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m320904249#320904249#0(0"0(0#0#88"/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m8616581120#1945"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKAppSettingsWebViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.476986
+e320903969.559629
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m320903969#320903969#0(0"0(0#0#90"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m8624956032#1944"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.262489
+e320904250.374735
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m320904250#320904250#0(0"0(0#0#79"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m8620796128#1933"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSSliderSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.559728
+e320903969.645901
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m320903969#320903969#0(0"0(0#0#93"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m8624774048#1950"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.341295
+e320904250.424320
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m320904250#320904250#0(0"0(0#0#82"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m8620419552#1939"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTextFieldSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.584774
+e320903969.669024
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m320903969#320903969#0(0"0(0#0#94"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m8623656992#1952"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.374830
+e320904250.452295
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m320904250#320904250#0(0"0(0#0#83"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m8624455744#1941"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSTitleValueSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.646023
+e320903969.736097
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m320903969#320903969#0(0"0(0#0#96"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m8622221120#1956"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.424436
+e320904250.514165
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m320904250#320904250#0(0"0(0#0#85"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m8624003328#1945"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKPSToggleSwitchSpecifierViewCell.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKPSToggleSwitchSpecifierViewCell.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.232281
+e320903969.349428
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m320903969#320903969#0(0"0(0#0#80"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m8624830816#1923"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsReader.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.038443
+e320904250.142196
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m320904250#320904250#0(0"0(0#0#69"/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m8624000448#1912"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsReader.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsReader.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.316542
+e320903969.409565
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m320903969#320903969#0(0"0(0#0#79"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m8624593056#1921"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStore.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.113439
+e320904250.191147
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m320904250#320904250#0(0"0(0#0#68"/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m8623779872#1910"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStore.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStore.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.349529
+e320903969.440505
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m320903969#320903969#0(0"0(0#0#83"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m8624224448#1929"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreFile.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.142304
+e320904250.217857
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m320904250#320904250#0(0"0(0#0#72"/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m8622321856#1918"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreFile.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreFile.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.409674
+e320903969.476885
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m320903969#320903969#0(0"0(0#0#91"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m8622070336#1945"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.191251
+e320904250.262387
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m320904250#320904250#0(0"0(0#0#80"/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m8621740960#1934"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSettingsStoreUserDefaults.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.669130
+e320903969.759133
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m320903969#320903969#0(0"0(0#0#71"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m8616601888#1906"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSlider.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.452398
+e320904250.530275
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m320904250#320904250#0(0"0(0#0#60"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m8623660896#1895"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSlider.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSlider.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.440605
+e320903969.584659
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m320903969#320903969#0(0"0(0#0#75"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m8625402176#1913"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Models/IASKSpecifier.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.217958
+e320904250.341191
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m320904250#320904250#0(0"0(0#0#64"/Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m8621379392#1902"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Models/IASKSpecifier.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifier.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.129529
+e320903969.232076
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m320903969#320903969#0(0"0(0#0#100"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m8625166560#1958"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904249.938503
+e320904250.038229
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m320904249#320904250#0(0"0(0#0#89"/Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m8599210560#1947"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSpecifierValuesViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.736199
+e320903969.822364
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m320903969#320903969#0(0"0(0#0#71"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m8620607808#1906"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKSwitch.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.514267
+e320904250.587079
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m320904250#320904250#0(0"0(0#0#60"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m8621924064#1895"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKSwitch.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKSwitch.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903969.759229
+e320903969.836795
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m320903969#320903969#0(0"0(0#0#74"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m8616562336#1912"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Views/IASKTextField.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320904250.530381
+e320904250.596801
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m320904250#320904250#0(0"0(0#0#63"/Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m8621516448#1901"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/InAppSettingsKit/Views/IASKTextField.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/IASKTextField.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o /Users/Matt/MapKitiPhone/Classes/../LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320910666.285086
+e320910666.380852
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o
+x/Users/Matt/MapKitiPhone/Classes/../LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Matt/MapKitiPhone/Classes/../LoginViewController.m320910666#320910666#0(0"0(0#0#57"/Users/Matt/MapKitiPhone/Classes/../LoginViewController.m8617815872#1901"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/../LoginViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/LoginViewController.o /Users/Matt/MapKitiPhone/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneAppDelegate.o /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320910666.195518
+e320910666.284983
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneAppDelegate.o
+x/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m320910666#320910666#0(0"0(0#0#58"/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m8624937632#1906"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneAppDelegate.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneAppDelegate.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneViewController.o /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320910666.258213
+e320910666.381615
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneViewController.o
+x/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m320910666#320910666#0(0"0(0#0#61"/Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m8621883552#1912"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/MapKitiPhoneViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhoneViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapViewTouch.o /Users/Matt/MapKitiPhone/Classes/MapViewTouch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319740328.630537
+e319740328.706209
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapViewTouch.o
+x/Users/Matt/MapKitiPhone/Classes/MapViewTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/Matt/MapKitiPhone/Classes/MapViewTouch.m319740328#319740328#0(0"0(0#0#47"/Users/Matt/MapKitiPhone/Classes/MapViewTouch.m8622039616#1884"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/MapViewTouch.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapViewTouch.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/SettingViewController.o /Users/Matt/MapKitiPhone/Classes/SettingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320903417.917044
+e320903417.984804
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/SettingViewController.o
+x/Users/Matt/MapKitiPhone/Classes/SettingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Matt/MapKitiPhone/Classes/SettingViewController.m320903417#320903417#0(0"0(0#0#56"/Users/Matt/MapKitiPhone/Classes/SettingViewController.m8617441728#1902"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/Classes/SettingViewController.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/SettingViewController.o0#
+
+CCompileC build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/main.o /Users/Matt/MapKitiPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320910666.193985
+e320910666.258092
+r1
+xCompileC
+xbuild/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/main.o
+x/Users/Matt/MapKitiPhone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/Matt/MapKitiPhone/main.m320910666#320910666#0(0"0(0#0#31"/Users/Matt/MapKitiPhone/main.m8624698144#1860"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -include /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch -c /Users/Matt/MapKitiPhone/main.m -o /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+s320903967.682327
+e320903968.085117
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+lSLF07#2@67"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib320903967#320903968#0(0"0(0#0#81"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib8622033696#584"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsView.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+s320903967.683037
+e320903968.110639
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+lSLF07#2@70"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib320903967#320903968#0(0"0(0#0#84"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib8621878848#590"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsWebView.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+s320903968.085210
+e320903968.501245
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+lSLF07#2@77"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib320903968#320903968#0(0"0(0#0#91"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib8624239968#604"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSSliderSpecifierViewCell.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+s320903968.110727
+e320903968.577175
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+lSLF07#2@80"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib320903968#320903968#0(0"0(0#0#94"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib8623576768#610"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSTextFieldSpecifierViewCell.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+s320903968.501341
+e320903968.986256
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+lSLF07#2@83"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib320903968#320903968#0(0"0(0#0#97"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib8621905984#616"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSToggleSwitchSpecifierViewCell.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+s320903968.577270
+e320903969.010337
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+lSLF07#2@71"CompileXIB Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib320903968#320903969#0(0"0(0#0#85"/Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib8620520352#592"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKSpecifierValuesView.nib /Users/Matt/MapKitiPhone/Classes/../InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/Classes/SettingViewController.xib
+s320906081.048386
+e320906081.486884
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/Classes/SettingViewController.xib
+lSLF07#2@44"CompileXIB Classes/SettingViewController.xib320906081#320906081#0(0"0(0#0#58"/Users/Matt/MapKitiPhone/Classes/SettingViewController.xib8606902592#563"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/SettingViewController.nib /Users/Matt/MapKitiPhone/Classes/SettingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+s320904248.470415
+e320904248.945669
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsView.xib
+lSLF07#2@56"CompileXIB InAppSettingsKit/Xibs/IASKAppSettingsView.xib320904248#320904248#0(0"0(0#0#70"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsView.xib8618044896#573"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsView.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+s320904248.471056
+e320904248.925164
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib
+lSLF07#2@59"CompileXIB InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib320904248#320904248#0(0"0(0#0#73"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib8617589984#579"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKAppSettingsWebView.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKAppSettingsWebView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+s320904248.925255
+e320904249.334865
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib
+lSLF07#2@66"CompileXIB InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib320904248#320904249#0(0"0(0#0#80"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib8608965696#593"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSSliderSpecifierViewCell.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSSliderSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+s320904248.946028
+e320904249.337178
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib
+lSLF07#2@69"CompileXIB InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib320904248#320904249#0(0"0(0#0#83"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib8606881184#599"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSTextFieldSpecifierViewCell.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSTextFieldSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+s320904249.334957
+e320904249.822230
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib
+lSLF07#2@72"CompileXIB InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib320904249#320904249#0(0"0(0#0#86"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib8601194144#605"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKPSToggleSwitchSpecifierViewCell.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKPSToggleSwitchSpecifierViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+s320904249.337241
+e320904249.792301
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib
+lSLF07#2@60"CompileXIB InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib320904249#320904249#0(0"0(0#0#74"/Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib8599048544#581"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/IASKSpecifierValuesView.nib /Users/Matt/MapKitiPhone/InAppSettingsKit/Xibs/IASKSpecifierValuesView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/LoginViewController.xib
+s320910664.986380
+e320910665.394365
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/LoginViewController.xib
+lSLF07#2@34"CompileXIB LoginViewController.xib320910664#320910665#0(0"0(0#0#48"/Users/Matt/MapKitiPhone/LoginViewController.xib8625554848#551"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/LoginViewController.nib /Users/Matt/MapKitiPhone/LoginViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/MainWindow.xib
+s320910664.560938
+e320910664.986295
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320910664#320910664#0(0"0(0#0#39"/Users/Matt/MapKitiPhone/MainWindow.xib8625178688#533"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MainWindow.nib /Users/Matt/MapKitiPhone/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib
+s320910664.561566
+e320910665.110444
+r1
+xCompileXIB
+x/Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib
+lSLF07#2@41"CompileXIB MapKitiPhoneViewController.xib320910664#320910665#0(0"0(0#0#55"/Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib8625029664#565"    cd /Users/Matt/MapKitiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhoneViewController.nib /Users/Matt/MapKitiPhone/MapKitiPhoneViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/MapKitiPhone.app/Settings.bundle Settings.bundle
+s320903417.445862
+e320903417.495504
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MapKitiPhone.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle320903417#320903417#0(0"0(0#0#40"/Users/Matt/MapKitiPhone/Settings.bundle8608791776#436"    cd /Users/Matt/MapKitiPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Matt/MapKitiPhone/Settings.bundle /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app0#
+
+CGenerateDSYMFile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app.dSYM /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone
+s320910666.406647
+e320910666.424937
+r1
+xGenerateDSYMFile
+x/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app.dSYM
+x/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/MapKitiPhone.app.dSYM build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone320910666#320910666#0(0"0(0#0#82"/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone8624858368#356"    cd /Users/Matt/MapKitiPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone -o /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app.dSYM0#
+
+CLd /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone normal i386
+s320910666.381672
+e320910666.406547
+r1
+xLd
+x/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone
+xnormal
+xi386
+lSLF07#2@87"Link /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone320910666#320910666#0(0"0(0#0#0"8625317312#873"    cd /Users/Matt/MapKitiPhone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -filelist /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/Objects-normal/i386/MapKitiPhone.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/MapKitiPhone0#
+
+CProcessInfoPlistFile /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Info.plist MapKitiPhone-Info.plist
+s320910664.553106
+e320910664.560868
+r1
+xProcessInfoPlistFile
+x/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Info.plist
+xMapKitiPhone-Info.plist
+lSLF07#2@31"Process MapKitiPhone-Info.plist320910664#320910664#0(0"0(0#0#48"/Users/Matt/MapKitiPhone/MapKitiPhone-Info.plist8601571584#452"    cd /Users/Matt/MapKitiPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MapKitiPhone-Info.plist -genpkginfo /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app/Info.plist0#
+
+CProcessPCH /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch.gch MapKitiPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320910665.394488
+e320910666.193753
+r1
+xProcessPCH
+x/var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch.gch
+xMapKitiPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile MapKitiPhone_Prefix.pch320910665#320910666#0(0"0(0#0#48"/Users/Matt/MapKitiPhone/MapKitiPhone_Prefix.pch8625108384#1761"    cd /Users/Matt/MapKitiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-generated-files.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-own-target-headers.hmap -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-all-target-headers.hmap -iquote /Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/MapKitiPhone-project-headers.hmap -F/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator -I/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/include -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources/i386 -I/Users/Matt/MapKitiPhone/build/MapKitiPhone.build/Debug-iphonesimulator/MapKitiPhone.build/DerivedSources -c /Users/Matt/MapKitiPhone/MapKitiPhone_Prefix.pch -o /var/folders/sf/sfKK1rZHGXqBJAI-6stUCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitiPhone_Prefix-gihpdkfhuuozjohezirqclvkchpj/MapKitiPhone_Prefix.pch.gch0#
+
+CTouch /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app
+s320910666.425020
+e320910666.427599
+r1
+xTouch
+x/Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app
+lSLF07#2@75"Touch /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app320910666#320910666#0(0"0(0#0#0"8623973440#255"    cd /Users/Matt/MapKitiPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Matt/MapKitiPhone/build/Debug-iphonesimulator/MapKitiPhone.app0#
+
