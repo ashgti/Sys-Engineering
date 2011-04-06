@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522657F7134A3F2F00660A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657F6134A3F2F00660A3D /* UIKit.framework */; };
+		522657F9134A3F2F00660A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657F8134A3F2F00660A3D /* Foundation.framework */; };
+		522657FB134A3F2F00660A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657FA134A3F2F00660A3D /* CoreGraphics.framework */; };
+		52265801134A3F2F00660A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522657FF134A3F2F00660A3D /* InfoPlist.strings */; };
+		52265804134A3F2F00660A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265803134A3F2F00660A3D /* main.m */; };
+		52265807134A3F2F00660A3D /* iNeedCaffeineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265806134A3F2F00660A3D /* iNeedCaffeineAppDelegate.m */; };
+		5226580A134A3F2F00660A3D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52265808134A3F2F00660A3D /* MainWindow.xib */; };
+		5226580D134A3F2F00660A3D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226580C134A3F2F00660A3D /* RootViewController.m */; };
+		52265817134A3F2F00660A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657F6134A3F2F00660A3D /* UIKit.framework */; };
+		52265818134A3F2F00660A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657F8134A3F2F00660A3D /* Foundation.framework */; };
+		52265819134A3F2F00660A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522657FA134A3F2F00660A3D /* CoreGraphics.framework */; };
+		52265821134A3F2F00660A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5226581F134A3F2F00660A3D /* InfoPlist.strings */; };
+		52265824134A3F2F00660A3D /* iNeedCaffeineTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 52265823134A3F2F00660A3D /* iNeedCaffeineTests.h */; };
+		52265826134A3F2F00660A3D /* iNeedCaffeineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265825134A3F2F00660A3D /* iNeedCaffeineTests.m */; };
+		5226584A134A3FC000660A3D /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265831134A3FC000660A3D /* AudioQueueObject.m */; };
+		5226584B134A3FC000660A3D /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265833134A3FC000660A3D /* AudioSignalAnalyzer.m */; };
+		5226584C134A3FC000660A3D /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265835134A3FC000660A3D /* AudioSignalGenerator.m */; };
+		5226584D134A3FC000660A3D /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5226583A134A3FC000660A3D /* FSKRecognizer.mm */; };
+		5226584E134A3FC000660A3D /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5226583C134A3FC000660A3D /* FSKSerialGenerator.mm */; };
+		52265852134A3FC000660A3D /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265845134A3FC000660A3D /* MultiDelegate.m */; };
+		52265858134A402000660A3D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265856134A402000660A3D /* LoginViewController.m */; };
+		5226585B134A40F300660A3D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5226585A134A40F300660A3D /* CoreAudio.framework */; };
+		52265863134A415E00660A3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52265862134A415E00660A3D /* AVFoundation.framework */; };
+		52265868134A460900660A3D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52265866134A460900660A3D /* SettingViewController.m */; };
+		52265869134A460900660A3D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52265867134A460900660A3D /* SettingViewController.xib */; };
+		52357D41134BFD3800F12AFE /* Ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 52357D40134BFD3700F12AFE /* Ico.png */; };
+		52FF198D134BB31600BC1AEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF198C134BB31600BC1AEC /* MapKit.framework */; };
+		52FF198F134BB35A00BC1AEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF198E134BB35A00BC1AEC /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5226581A134A3F2F00660A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522657E9134A3F2F00660A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522657F1134A3F2F00660A3D;
+			remoteInfo = iNeedCaffeine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522657F2134A3F2F00660A3D /* iNeedCaffeine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNeedCaffeine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522657F6134A3F2F00660A3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		522657F8134A3F2F00660A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		522657FA134A3F2F00660A3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		522657FE134A3F2F00660A3D /* iNeedCaffeine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iNeedCaffeine-Info.plist"; sourceTree = "<group>"; };
+		52265800134A3F2F00660A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52265802134A3F2F00660A3D /* iNeedCaffeine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iNeedCaffeine-Prefix.pch"; sourceTree = "<group>"; };
+		52265803134A3F2F00660A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52265805134A3F2F00660A3D /* iNeedCaffeineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iNeedCaffeineAppDelegate.h; sourceTree = "<group>"; };
+		52265806134A3F2F00660A3D /* iNeedCaffeineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNeedCaffeineAppDelegate.m; sourceTree = "<group>"; };
+		52265809134A3F2F00660A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5226580B134A3F2F00660A3D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5226580C134A3F2F00660A3D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		52265816134A3F2F00660A3D /* iNeedCaffeineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNeedCaffeineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5226581E134A3F2F00660A3D /* iNeedCaffeineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iNeedCaffeineTests-Info.plist"; sourceTree = "<group>"; };
+		52265820134A3F2F00660A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52265822134A3F2F00660A3D /* iNeedCaffeineTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iNeedCaffeineTests-Prefix.pch"; sourceTree = "<group>"; };
+		52265823134A3F2F00660A3D /* iNeedCaffeineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iNeedCaffeineTests.h; sourceTree = "<group>"; };
+		52265825134A3F2F00660A3D /* iNeedCaffeineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNeedCaffeineTests.m; sourceTree = "<group>"; };
+		52265830134A3FC000660A3D /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioQueueObject.h; path = ../../Classes/AudioQueueObject.h; sourceTree = "<group>"; };
+		52265831134A3FC000660A3D /* AudioQueueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioQueueObject.m; path = ../../Classes/AudioQueueObject.m; sourceTree = "<group>"; };
+		52265832134A3FC000660A3D /* AudioSignalAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioSignalAnalyzer.h; path = ../../Classes/AudioSignalAnalyzer.h; sourceTree = "<group>"; };
+		52265833134A3FC000660A3D /* AudioSignalAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioSignalAnalyzer.m; path = ../../Classes/AudioSignalAnalyzer.m; sourceTree = "<group>"; };
+		52265834134A3FC000660A3D /* AudioSignalGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioSignalGenerator.h; path = ../../Classes/AudioSignalGenerator.h; sourceTree = "<group>"; };
+		52265835134A3FC000660A3D /* AudioSignalGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioSignalGenerator.m; path = ../../Classes/AudioSignalGenerator.m; sourceTree = "<group>"; };
+		52265836134A3FC000660A3D /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharReceiver.h; path = ../../Classes/CharReceiver.h; sourceTree = "<group>"; };
+		52265837134A3FC000660A3D /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKByteQueue.h; path = ../../Classes/FSKByteQueue.h; sourceTree = "<group>"; };
+		52265838134A3FC000660A3D /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKModemConfig.h; path = ../../Classes/FSKModemConfig.h; sourceTree = "<group>"; };
+		52265839134A3FC000660A3D /* FSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKRecognizer.h; path = ../../Classes/FSKRecognizer.h; sourceTree = "<group>"; };
+		5226583A134A3FC000660A3D /* FSKRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKRecognizer.mm; path = ../../Classes/FSKRecognizer.mm; sourceTree = "<group>"; };
+		5226583B134A3FC000660A3D /* FSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKSerialGenerator.h; path = ../../Classes/FSKSerialGenerator.h; sourceTree = "<group>"; };
+		5226583C134A3FC000660A3D /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKSerialGenerator.mm; path = ../../Classes/FSKSerialGenerator.mm; sourceTree = "<group>"; };
+		5226583D134A3FC000660A3D /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lockfree.h; path = ../../Classes/lockfree.h; sourceTree = "<group>"; };
+		52265844134A3FC000660A3D /* MultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiDelegate.h; path = ../../Classes/MultiDelegate.h; sourceTree = "<group>"; };
+		52265845134A3FC000660A3D /* MultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiDelegate.m; path = ../../Classes/MultiDelegate.m; sourceTree = "<group>"; };
+		52265846134A3FC000660A3D /* PatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatternRecognizer.h; path = ../../Classes/PatternRecognizer.h; sourceTree = "<group>"; };
+		52265855134A402000660A3D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		52265856134A402000660A3D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5226585A134A40F300660A3D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		52265862134A415E00660A3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52265865134A460900660A3D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		52265866134A460900660A3D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		52265867134A460900660A3D /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		52357D40134BFD3700F12AFE /* Ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ico.png; sourceTree = "<group>"; };
+		52FF198C134BB31600BC1AEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52FF198E134BB35A00BC1AEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522657EF134A3F2F00660A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF198F134BB35A00BC1AEC /* AudioToolbox.framework in Frameworks */,
+				52FF198D134BB31600BC1AEC /* MapKit.framework in Frameworks */,
+				52265863134A415E00660A3D /* AVFoundation.framework in Frameworks */,
+				5226585B134A40F300660A3D /* CoreAudio.framework in Frameworks */,
+				522657F7134A3F2F00660A3D /* UIKit.framework in Frameworks */,
+				522657F9134A3F2F00660A3D /* Foundation.framework in Frameworks */,
+				522657FB134A3F2F00660A3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52265812134A3F2F00660A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52265817134A3F2F00660A3D /* UIKit.framework in Frameworks */,
+				52265818134A3F2F00660A3D /* Foundation.framework in Frameworks */,
+				52265819134A3F2F00660A3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522657E7134A3F2F00660A3D = {
+			isa = PBXGroup;
+			children = (
+				522657FC134A3F2F00660A3D /* iNeedCaffeine */,
+				5226581C134A3F2F00660A3D /* iNeedCaffeineTests */,
+				522657F5134A3F2F00660A3D /* Frameworks */,
+				522657F3134A3F2F00660A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522657F3134A3F2F00660A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522657F2134A3F2F00660A3D /* iNeedCaffeine.app */,
+				52265816134A3F2F00660A3D /* iNeedCaffeineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522657F5134A3F2F00660A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FF198E134BB35A00BC1AEC /* AudioToolbox.framework */,
+				52265862134A415E00660A3D /* AVFoundation.framework */,
+				52FF198C134BB31600BC1AEC /* MapKit.framework */,
+				5226585A134A40F300660A3D /* CoreAudio.framework */,
+				522657F6134A3F2F00660A3D /* UIKit.framework */,
+				522657F8134A3F2F00660A3D /* Foundation.framework */,
+				522657FA134A3F2F00660A3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522657FC134A3F2F00660A3D /* iNeedCaffeine */ = {
+			isa = PBXGroup;
+			children = (
+				5226582F134A3FB300660A3D /* AudioProcessing */,
+				52357CD3134BCE0700F12AFE /* LoginView */,
+				52265864134A45F000660A3D /* SettingView */,
+				52265805134A3F2F00660A3D /* iNeedCaffeineAppDelegate.h */,
+				52265806134A3F2F00660A3D /* iNeedCaffeineAppDelegate.m */,
+				52265808134A3F2F00660A3D /* MainWindow.xib */,
+				5226580B134A3F2F00660A3D /* RootViewController.h */,
+				5226580C134A3F2F00660A3D /* RootViewController.m */,
+				522657FD134A3F2F00660A3D /* Supporting Files */,
+			);
+			path = iNeedCaffeine;
+			sourceTree = "<group>";
+		};
+		522657FD134A3F2F00660A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52357D40134BFD3700F12AFE /* Ico.png */,
+				522657FE134A3F2F00660A3D /* iNeedCaffeine-Info.plist */,
+				522657FF134A3F2F00660A3D /* InfoPlist.strings */,
+				52265802134A3F2F00660A3D /* iNeedCaffeine-Prefix.pch */,
+				52265803134A3F2F00660A3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5226581C134A3F2F00660A3D /* iNeedCaffeineTests */ = {
+			isa = PBXGroup;
+			children = (
+				52265823134A3F2F00660A3D /* iNeedCaffeineTests.h */,
+				52265825134A3F2F00660A3D /* iNeedCaffeineTests.m */,
+				5226581D134A3F2F00660A3D /* Supporting Files */,
+			);
+			path = iNeedCaffeineTests;
+			sourceTree = "<group>";
+		};
+		5226581D134A3F2F00660A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5226581E134A3F2F00660A3D /* iNeedCaffeineTests-Info.plist */,
+				5226581F134A3F2F00660A3D /* InfoPlist.strings */,
+				52265822134A3F2F00660A3D /* iNeedCaffeineTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5226582F134A3FB300660A3D /* AudioProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				52265830134A3FC000660A3D /* AudioQueueObject.h */,
+				52265831134A3FC000660A3D /* AudioQueueObject.m */,
+				52265832134A3FC000660A3D /* AudioSignalAnalyzer.h */,
+				52265833134A3FC000660A3D /* AudioSignalAnalyzer.m */,
+				52265834134A3FC000660A3D /* AudioSignalGenerator.h */,
+				52265835134A3FC000660A3D /* AudioSignalGenerator.m */,
+				52265836134A3FC000660A3D /* CharReceiver.h */,
+				52265837134A3FC000660A3D /* FSKByteQueue.h */,
+				52265838134A3FC000660A3D /* FSKModemConfig.h */,
+				52265839134A3FC000660A3D /* FSKRecognizer.h */,
+				5226583A134A3FC000660A3D /* FSKRecognizer.mm */,
+				5226583B134A3FC000660A3D /* FSKSerialGenerator.h */,
+				5226583C134A3FC000660A3D /* FSKSerialGenerator.mm */,
+				5226583D134A3FC000660A3D /* lockfree.h */,
+				52265844134A3FC000660A3D /* MultiDelegate.h */,
+				52265845134A3FC000660A3D /* MultiDelegate.m */,
+				52265846134A3FC000660A3D /* PatternRecognizer.h */,
+			);
+			name = AudioProcessing;
+			sourceTree = "<group>";
+		};
+		52265864134A45F000660A3D /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				52265865134A460900660A3D /* SettingViewController.h */,
+				52265866134A460900660A3D /* SettingViewController.m */,
+				52265867134A460900660A3D /* SettingViewController.xib */,
+			);
+			name = SettingView;
+			sourceTree = "<group>";
+		};
+		52357CD3134BCE0700F12AFE /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				52265855134A402000660A3D /* LoginViewController.h */,
+				52265856134A402000660A3D /* LoginViewController.m */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522657F1134A3F2F00660A3D /* iNeedCaffeine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52265829134A3F2F00660A3D /* Build configuration list for PBXNativeTarget "iNeedCaffeine" */;
+			buildPhases = (
+				522657EE134A3F2F00660A3D /* Sources */,
+				522657EF134A3F2F00660A3D /* Frameworks */,
+				522657F0134A3F2F00660A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNeedCaffeine;
+			productName = iNeedCaffeine;
+			productReference = 522657F2134A3F2F00660A3D /* iNeedCaffeine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52265815134A3F2F00660A3D /* iNeedCaffeineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5226582C134A3F2F00660A3D /* Build configuration list for PBXNativeTarget "iNeedCaffeineTests" */;
+			buildPhases = (
+				52265811134A3F2F00660A3D /* Sources */,
+				52265812134A3F2F00660A3D /* Frameworks */,
+				52265813134A3F2F00660A3D /* Resources */,
+				52265814134A3F2F00660A3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5226581B134A3F2F00660A3D /* PBXTargetDependency */,
+			);
+			name = iNeedCaffeineTests;
+			productName = iNeedCaffeineTests;
+			productReference = 52265816134A3F2F00660A3D /* iNeedCaffeineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522657E9134A3F2F00660A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Auburn University";
+			};
+			buildConfigurationList = 522657EC134A3F2F00660A3D /* Build configuration list for PBXProject "iNeedCaffeine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522657E7134A3F2F00660A3D;
+			productRefGroup = 522657F3134A3F2F00660A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522657F1134A3F2F00660A3D /* iNeedCaffeine */,
+				52265815134A3F2F00660A3D /* iNeedCaffeineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522657F0134A3F2F00660A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52265801134A3F2F00660A3D /* InfoPlist.strings in Resources */,
+				5226580A134A3F2F00660A3D /* MainWindow.xib in Resources */,
+				52265869134A460900660A3D /* SettingViewController.xib in Resources */,
+				52357D41134BFD3800F12AFE /* Ico.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52265813134A3F2F00660A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52265821134A3F2F00660A3D /* InfoPlist.strings in Resources */,
+				52265824134A3F2F00660A3D /* iNeedCaffeineTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52265814134A3F2F00660A3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522657EE134A3F2F00660A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52265804134A3F2F00660A3D /* main.m in Sources */,
+				52265807134A3F2F00660A3D /* iNeedCaffeineAppDelegate.m in Sources */,
+				5226580D134A3F2F00660A3D /* RootViewController.m in Sources */,
+				5226584A134A3FC000660A3D /* AudioQueueObject.m in Sources */,
+				5226584B134A3FC000660A3D /* AudioSignalAnalyzer.m in Sources */,
+				5226584C134A3FC000660A3D /* AudioSignalGenerator.m in Sources */,
+				5226584D134A3FC000660A3D /* FSKRecognizer.mm in Sources */,
+				5226584E134A3FC000660A3D /* FSKSerialGenerator.mm in Sources */,
+				52265852134A3FC000660A3D /* MultiDelegate.m in Sources */,
+				52265858134A402000660A3D /* LoginViewController.m in Sources */,
+				52265868134A460900660A3D /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52265811134A3F2F00660A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52265826134A3F2F00660A3D /* iNeedCaffeineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5226581B134A3F2F00660A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522657F1134A3F2F00660A3D /* iNeedCaffeine */;
+			targetProxy = 5226581A134A3F2F00660A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522657FF134A3F2F00660A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52265800134A3F2F00660A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52265808134A3F2F00660A3D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52265809134A3F2F00660A3D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5226581F134A3F2F00660A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52265820134A3F2F00660A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52265827134A3F2F00660A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52265828134A3F2F00660A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5226582A134A3F2F00660A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNeedCaffeine/iNeedCaffeine-Prefix.pch";
+				INFOPLIST_FILE = "iNeedCaffeine/iNeedCaffeine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5226582B134A3F2F00660A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNeedCaffeine/iNeedCaffeine-Prefix.pch";
+				INFOPLIST_FILE = "iNeedCaffeine/iNeedCaffeine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5226582D134A3F2F00660A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNeedCaffeine.app/iNeedCaffeine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNeedCaffeineTests/iNeedCaffeineTests-Prefix.pch";
+				INFOPLIST_FILE = "iNeedCaffeineTests/iNeedCaffeineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5226582E134A3F2F00660A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNeedCaffeine.app/iNeedCaffeine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNeedCaffeineTests/iNeedCaffeineTests-Prefix.pch";
+				INFOPLIST_FILE = "iNeedCaffeineTests/iNeedCaffeineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522657EC134A3F2F00660A3D /* Build configuration list for PBXProject "iNeedCaffeine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52265827134A3F2F00660A3D /* Debug */,
+				52265828134A3F2F00660A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52265829134A3F2F00660A3D /* Build configuration list for PBXNativeTarget "iNeedCaffeine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5226582A134A3F2F00660A3D /* Debug */,
+				5226582B134A3F2F00660A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5226582C134A3F2F00660A3D /* Build configuration list for PBXNativeTarget "iNeedCaffeineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5226582D134A3F2F00660A3D /* Debug */,
+				5226582E134A3F2F00660A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522657E9134A3F2F00660A3D /* Project object */;
+}
