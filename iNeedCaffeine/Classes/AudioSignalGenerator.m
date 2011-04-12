@@ -15,26 +15,26 @@ static void playbackCallback (
 							  void					*inUserData,
 							  AudioQueueRef			inAudioQueue,
 							  AudioQueueBufferRef		bufferReference
-) {
+                              ) {
 	// This is not a Cocoa thread, it needs a manually allocated pool
-//    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-
+    //    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
 	// This callback, being outside the implementation block, needs a reference to the AudioSignalGenerator object
 	AudioSignalGenerator *player = (AudioSignalGenerator *) inUserData;
 	if ([player stopped]) return;
-
+    
 	[player fillBuffer:bufferReference->mAudioData];
-
+    
 	bufferReference->mAudioDataByteSize = player.bufferByteSize;
-
+    
 	AudioQueueEnqueueBuffer (
-								 inAudioQueue,
-								 bufferReference,
-								 player.bufferPacketCount,
-								 player.packetDescriptions
-								 );
-
-//	[pool release];
+                             inAudioQueue,
+                             bufferReference,
+                             player.bufferPacketCount,
+                             player.packetDescriptions
+                             );
+    
+    //	[pool release];
 }
 
 @implementation AudioSignalGenerator
@@ -124,7 +124,7 @@ static void playbackCallback (
 }
 
 - (void) stop {
-		
+    
 	AudioQueueStop (
 					self.queueObject,
 					self.audioPlayerShouldStopImmediately

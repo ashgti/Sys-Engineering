@@ -29,6 +29,7 @@
 		multiBytePos = 0;
         myColor = MKPinAnnotationColorRed;
 		memset(multiBytes, 0, sizeof(multiBytes));	
+        memset(myStr, 0, sizeof(myStr));
     }
     NSLog(@"Basic Init was called");
     return self;
@@ -43,8 +44,7 @@
         myColor = MKPinAnnotationColorRed;
 		memset(multiBytes, 0, sizeof(multiBytes));
     }
-    NSLog(@"Coder Init called");
-    return self;
+    NSLog(@"RootViewController: Coder Init called");
 }
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -114,14 +114,14 @@
 }
 
 - (void) handleSingleTap:(UITapGestureRecognizer *)recognizer {
-    NSLog(@"Hi from the tap handler %d", myColor);
+    NSLog(@"Hi from the tap handler with color: %d", myColor);
 	if(segControl.selectedSegmentIndex == 3)
 	{
 		//this means 'None' is selected, nothing gets placed on the map
 		return;
 	}
     
-    NSLog(@"Hi from the tap handler");
+    NSLog(@"Hi from the tap handler %p", self);
 	
 	CGPoint touchPoint = [myTapRecognizer locationInView:mapView];
 	CLLocationCoordinate2D touchMapCoordinate = 
@@ -131,14 +131,14 @@
     pa.coordinate = touchMapCoordinate;
     
     char buf[100] = "";
-    sprintf(buf, "%2d,%+3.4lf,%+3.4lf", myColor, touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+    sprintf(buf, "%c%2d %+3.4lf %+3.4lf%c", MSG_START, myColor, touchMapCoordinate.latitude, touchMapCoordinate.longitude, MSG_END);
 	NSLog(@"Printing:  %s", buf);
     NSLog(@"Regions is: %+3.4lf %+3.4lf ", mapView.region.span.latitudeDelta, mapView.region.span.longitudeDelta);
     NSLog(@"Lat/Long %+3.4lf/%+3.4lf", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
     [[iNeedCaffeineAppDelegate getInstance].generator writeBytes: buf
                                                           length: strlen(buf)];
     
-    [mapView addAnnotation:pa];
+    //[mapView addAnnotation:pa];
     [pa release];
 }
 
@@ -156,6 +156,16 @@
     return customPinView;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    MKCoordinateRegion reg; /* Auburn Regions */
+    reg.center.latitude  =  32.597290;
+    reg.center.longitude = -85.496149;
+    reg.span.latitudeDelta  = 1.879535;
+    reg.span.longitudeDelta = 1.922111;
+    
+    [mapView setRegion:reg animated:FALSE];
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
@@ -168,14 +178,6 @@
 
     NSLog(@"view is: %@ %@", mapView, recognizer);
 	[recognizer release];
-    
-    MKCoordinateRegion reg;
-    reg.center.latitude  =  32.597290;
-    reg.center.longitude = -85.496149;
-    reg.span.latitudeDelta  = 1.879535;
-    reg.span.longitudeDelta = 1.922111;
-    
-    [mapView setRegion:reg animated:FALSE];
 	
 	self.title = @"Map View";
 }
@@ -183,6 +185,7 @@
 
 - (void) receivedChar:(char)input
 {
+    NSLog(@"Hi from receivedChar: %c", input);
 	unsigned char byte = (unsigned char)input;
 	NSMutableString *newstr = [NSMutableString string];
 	
@@ -191,12 +194,12 @@
 	 E0-EF 3byte
 	 F0-F7 4byte
 	 */
-	if(multiBytePos < multiByteLength){
+	if (multiBytePos < multiByteLength){
 		multiBytes[multiBytePos++] = byte;
-		if(multiBytePos == multiByteLength){
+		if (multiBytePos == multiByteLength){
 			multiBytes[multiBytePos] = 0;
-			NSString *utf8 = [NSString stringWithUTF8String:multiBytes];
-			if(utf8 && [utf8 length]){
+			NSString *utf8 = [NSString stringWithUTF8String: multiBytes];
+			if (utf8 && [utf8 length]){
 				[newstr appendString:utf8];
 			}else{
 				int i;
@@ -232,9 +235,32 @@
 	}
 	
 	if([newstr length] > 0){
-//		NSRange range = NSMakeRange([textReceived.text length], [newstr length]);
-//		textReceived.text = [textReceived.text stringByAppendingString:newstr];
-//		[textReceived scrollRangeToVisible:range];
+        if ([newstr compare: @"\v"] == NSOrderedSame) {
+            // end of string
+            NSLog(@"Got end of string %s",  myStr);
+            MKPointAnnotation *pa = [[MKPointAnnotation alloc] init];
+            CLLocationCoordinate2D touchMapCoordinate;
+            
+            int color;
+            
+            sscanf(myStr, "%d %lf %lf", &color, &touchMapCoordinate.latitude, &touchMapCoordinate.longitude);
+            
+            myColor = color;
+            pa.coordinate = touchMapCoordinate;
+            [mapView addAnnotation:pa];
+            
+            NSLog(@"Got: %d %lf %lf", color, touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+        }
+        else if ([newstr compare: @"\t"] == NSOrderedSame) {
+            // start of string
+            memset(myStr, 0, sizeof(myStr));
+            str_len = 0;
+            NSLog(@"Got start of string with string = %s", myStr);
+        }
+        else {
+            NSLog(@"middle bits");
+            myStr[str_len++] = input;
+        }
 	}
 }
 

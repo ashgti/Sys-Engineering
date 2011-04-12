@@ -63,7 +63,7 @@
 		705809F711FDCC2C000F6C1D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		7061347A11F870BA00E36A4D /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FSKSerialGenerator.mm; path = Classes/FSKSerialGenerator.mm; sourceTree = "<group>"; };
 		7061347C11F870DA00E36A4D /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKByteQueue.h; path = Classes/FSKByteQueue.h; sourceTree = "<group>"; };
-		70BA824C11BA507600005CF1 /* AcousticMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcousticMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BA824C11BA507600005CF1 /* sound board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sound board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D1A3A71192DE50009B9356 /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKModemConfig.h; path = Classes/FSKModemConfig.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SoftModemTerminal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SoftModemTerminal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +97,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70BA824C11BA507600005CF1 /* AcousticMessage.app */,
+				70BA824C11BA507600005CF1 /* sound board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			);
 			name = AcousticMessage;
 			productName = MultiTrigger;
-			productReference = 70BA824C11BA507600005CF1 /* AcousticMessage.app */;
+			productReference = 70BA824C11BA507600005CF1 /* sound board.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,8 @@
 				GCC_PREFIX_HEADER = SoftModemTerminal_Prefix.pch;
 				INFOPLIST_FILE = "SoftModemTerminal-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
-				PRODUCT_NAME = AcousticMessage;
+				PRODUCT_NAME = "sound board";
+				SDKROOT = iphoneos4.3;
 			};
 			name = Debug;
 		};
@@ -298,7 +299,8 @@
 				GCC_PREFIX_HEADER = SoftModemTerminal_Prefix.pch;
 				INFOPLIST_FILE = "SoftModemTerminal-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
-				PRODUCT_NAME = AcousticMessage;
+				PRODUCT_NAME = "sound board";
+				SDKROOT = iphoneos4.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -327,8 +329,8 @@
 				GCC_PREFIX_HEADER = SoftModemTerminal_Prefix.pch;
 				INFOPLIST_FILE = "SoftModemTerminal-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
-				PRODUCT_NAME = AcousticMessage;
-				SDKROOT = iphoneos4.2;
+				PRODUCT_NAME = "sound board";
+				SDKROOT = iphoneos4.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;

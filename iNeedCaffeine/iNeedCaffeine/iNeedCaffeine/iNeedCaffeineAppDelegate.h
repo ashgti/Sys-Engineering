@@ -33,7 +33,7 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *myNavController;
 @property (nonatomic, retain) LoginViewController *view;
-@property (nonatomic, retain) RootViewController *rvc;
+@property (nonatomic, retain) IBOutlet RootViewController *rvc;
 
 + (iNeedCaffeineAppDelegate*) getInstance;
 

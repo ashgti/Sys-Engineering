@@ -14,8 +14,7 @@
 - (id) initWithProtocol:(Protocol*)p
 {
     self = [super init];
-	if (self)
-	{
+	if (self) {
 		proto = p;
 	}
 	
@@ -26,8 +25,7 @@
 {
 	if(!delegateSet)
 		delegateSet = [[NSMutableSet alloc] init];
-    if (delegate != nil)
-        [delegateSet addObject:delegate];
+	[delegateSet addObject:delegate];
 }
 
 - (NSMethodSignature*) methodSignatureForSelector:(SEL)selector

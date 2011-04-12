@@ -137,7 +137,7 @@ SAMPLE sineTable[SINE_TABLE_LENGTH];
 			if(!bitCount)
 				underflow = ![self getNextByte];
 		}
-
+        
 		if(underflow){
 			*sample = 0;
 		}
@@ -147,7 +147,7 @@ SAMPLE sineTable[SINE_TABLE_LENGTH];
 				sineTableIndex -= SINE_TABLE_LENGTH;
 			*sample = sineTable[sineTableIndex];
 		}
-
+        
 		if(bitCount)
 			nsBitProgress += SAMPLE_DURATION;
 	}

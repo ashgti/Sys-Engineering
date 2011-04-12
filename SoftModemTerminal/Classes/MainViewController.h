@@ -13,7 +13,7 @@
 	IBOutlet UITextView *textReceived;
 	int multiByteLength;
 	int multiBytePos;
-	unsigned char multiBytes[16];
+	unsigned char multiBytes[26];
 }
 
 - (IBAction)showInfo;

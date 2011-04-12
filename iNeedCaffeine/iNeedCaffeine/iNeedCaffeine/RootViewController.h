@@ -11,6 +11,9 @@
 //#import <CommonCrypto/CommonCryptor.h>
 #import "CharReceiver.h"
 
+#define MSG_START '\t'
+#define MSG_END   '\v'
+
 @interface RootViewController : UIViewController<UIGestureRecognizerDelegate, CharReceiver> {
 	IBOutlet MKMapView *mapView;
 	IBOutlet UISegmentedControl *segControl;
@@ -18,6 +21,9 @@
 	
 	UITapGestureRecognizer *myTapRecognizer;
 	MKPinAnnotationColor myColor;
+    
+    char myStr[100];
+    size_t str_len;
     
 	int multiByteLength;
 	int multiBytePos;

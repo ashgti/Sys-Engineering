@@ -29,8 +29,7 @@
 
 - (id) init
 {
-    self = [super init];
-	if(self)
+	if(self = [super init])
 	{
 		receivers = [[MultiDelegate alloc] init];
 		byteQueue = new FSKByteQueue();
@@ -79,11 +78,11 @@
 			break;
 		case FSKBits:
 			//NSLog(@"Bit: %c %d", high?'H':'L', length);
-			if((bitPosition > 0) && (bitPosition <= 7)){ //Data Bits
+			if (bitPosition <= 7) { //Data Bits
 				newState = FSKBits;
 				[self dataBit:high];
 			}
-			else if(bitPosition == 8){ // Stop Bit
+			else if (bitPosition == 8) { // Stop Bit
 				newState = FSKStart;
 				byteQueue->put(bits);
 				[self performSelectorOnMainThread:@selector(commitBytes)
@@ -93,7 +92,6 @@
 				bitPosition = 0;
 			}
 			break;
-        default: break;
 	}
 	state = newState;
 }
@@ -117,7 +115,7 @@
 	recentWidth += width;
 	recentAvrWidth += avgWidth;
 	
-//	NSLog(@"high %d, width %u(avg %u), low %u, high %u, w %u,a %u",high, width/1000, avgWidth/1000, recentLows/1000, recentHighs/1000,recentWidth/1000,recentAvrWidth/1000);
+    //	NSLog(@"high %d, width %u(avg %u), low %u, high %u, w %u,a %u",high, width/1000, avgWidth/1000, recentLows/1000, recentHighs/1000,recentWidth/1000,recentAvrWidth/1000);
 	
 	
 	if (state == FSKStart)
@@ -131,7 +129,7 @@
 			recentHighs += avgWidth;
 			if(recentHighs > recentLows)
 			{
-//				NSLog(@"False start: %d", recentLows);
+                //				NSLog(@"False start: %d", recentLows);
 				recentLows = recentHighs = 0;
 			}
 		}
@@ -195,9 +193,9 @@
 	if(nsInterval <= HWL_LOW + HWL_HIGH)
 		[self halfWave:(unsigned)nsInterval];
 	else {
-//		NSLog(@"skip");
+        //		NSLog(@"skip");
 	}
-
+    
 }
 
 - (void) idle: (UInt64)nsInterval

@@ -1,4 +1,4 @@
-//
+    //
 //  SoftModemTerminalAppDelegate.m
 //  SoftModemTerminal
 //
@@ -29,11 +29,11 @@
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
 	[aController release];
-
+    
     mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
 	[window addSubview:[mainViewController view]];
     [window makeKeyAndVisible];
-
+    
 	AVAudioSession *session = [AVAudioSession sharedInstance];
 	session.delegate = self;
 	if(session.inputIsAvailable){
@@ -43,25 +43,26 @@
 	}
 	[session setActive:YES error:nil];
 	[session setPreferredIOBufferDuration:0.023220 error:nil];
-
+    
 	recognizer = [[FSKRecognizer alloc] init];
 	[recognizer addReceiver:mainViewController];
-
+    
 	generator = [[FSKSerialGenerator alloc] init];
 	[generator play];
-
+    
 	analyzer = [[AudioSignalAnalyzer alloc] init];
 	[analyzer addRecognizer:recognizer];
-
+    
 	if(session.inputIsAvailable){
 		[analyzer record];
 	}
-
+    
 	return YES;
 }
 
 - (void)restartAnalyzerAndGenerator:(BOOL)isInputAvailable
 {
+    NSLog(@"restartAnalyzerAndGenerator called");
 	AVAudioSession *session = [AVAudioSession sharedInstance];
 	[session setActive:YES error:nil];
 	[analyzer stop];

@@ -24,8 +24,8 @@
 #define IDLE_CHECK_PERIOD		MS_TO_SAMPLES(10)
 
 static int analyze( SAMPLE *inputBuffer,
-						  unsigned long framesPerBuffer,
-						  AudioSignalAnalyzer* analyzer)
+                   unsigned long framesPerBuffer,
+                   AudioSignalAnalyzer* analyzer)
 {
 	analyzerData *data = analyzer.pulseData;
 	SAMPLE *pSample = inputBuffer;
@@ -140,9 +140,9 @@ static void recordingCallback (
 							   const AudioTimeStamp				*inStartTime,
 							   UInt32								inNumPackets,
 							   const AudioStreamPacketDescription	*inPacketDesc
-) {
+                               ) {
 	// This is not a Cocoa thread, it needs a manually allocated pool
-//    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    //    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
  	// This callback, being outside the implementation block, needs a reference to the AudioRecorder object
 	AudioSignalAnalyzer *analyzer = (AudioSignalAnalyzer *) inUserData;
@@ -162,7 +162,7 @@ static void recordingCallback (
 								 );
 	}
 	
-//	[pool release];
+    //	[pool release];
 }
 
 
@@ -179,7 +179,7 @@ static void recordingCallback (
 - (id) init
 {
 	self = [super init];
-
+    
 	if (self != nil) 
 	{
 		recognizers = [[NSMutableArray alloc] init];

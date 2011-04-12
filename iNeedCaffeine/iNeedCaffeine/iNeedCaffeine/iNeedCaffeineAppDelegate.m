@@ -18,18 +18,18 @@
 @synthesize view;
 @synthesize rvc;
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application
-{
-    NSLog(@"HI");
-    [window addSubview:[myNavController view]];
-	[window makeKeyAndVisible];
-}
+//- (void)applicationDidFinishLaunching:(UIApplication *)application
+//{
+//    NSLog(@"HI");
+//    [window addSubview:[myNavController view]];
+//	[window makeKeyAndVisible];
+//}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window.rootViewController = self.myNavController;
-            
-    [window addSubview:[myNavController view]];
+        
+    [window addSubview: [myNavController view]];
 	[window makeKeyAndVisible];
 
     session = [AVAudioSession sharedInstance];
@@ -43,19 +43,21 @@
 	[session setActive:YES error:nil];
 	[session setPreferredIOBufferDuration:0.023220 error:nil];
     
-	recognizer = [[FSKRecognizer alloc] init];
-	//[recognizer addReceiver: myNavController];
-    
-	generator = [[FSKSerialGenerator alloc] init];
+    generator = [[FSKSerialGenerator alloc] init];
 	[generator play];
     
-	analyzer = [[AudioSignalAnalyzer alloc] init];
-	// [analyzer addRecognizer:recognizer];
+    NSLog(@"Adding receiver %p", rvc);
+	recognizer = [[FSKRecognizer alloc] init];
+	[recognizer addReceiver: rvc];
     
-	if(session.inputIsAvailable){
+	analyzer = [[AudioSignalAnalyzer alloc] init];
+	[analyzer addRecognizer:recognizer];
+    
+	if (session.inputIsAvailable) {
+        NSLog(@"Recording audio");
 		[analyzer record];
 	}
-
+    
     return YES;
 }
 
