@@ -11,6 +11,77 @@
 #import "CharReceiver.h"
 #import "iNeedCaffeineAppDelegate.h"
 #include <ctype.h>
+#import <CommonCrypto/CommonCryptor.h>
+
+@implementation NSData (AES256)
+
+- (NSData *)AES256EncryptWithKey:(NSString *)key {
+	// 'key' should be 32 bytes for AES256, will be null-padded otherwise
+	char keyPtr[kCCKeySizeAES256+1]; // room for terminator (unused)
+	bzero(keyPtr, sizeof(keyPtr)); // fill with zeroes (for padding)
+	
+	// fetch key data
+	[key getCString:keyPtr maxLength:sizeof(keyPtr) encoding:NSUTF8StringEncoding];
+	
+	NSUInteger dataLength = [self length];
+	
+	//See the doc: For block ciphers, the output size will always be less than or 
+	//equal to the input size plus the size of one block.
+	//That's why we need to add the size of one block here
+	size_t bufferSize = dataLength + kCCBlockSizeAES128;
+	void *buffer = malloc(bufferSize);
+	
+	size_t numBytesEncrypted = 0;
+	CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt, kCCAlgorithmAES128, kCCOptionPKCS7Padding,
+                                          keyPtr, kCCKeySizeAES256,
+                                          NULL /* initialization vector (optional) */,
+                                          [self bytes], dataLength, /* input */
+                                          buffer, bufferSize, /* output */
+                                          &numBytesEncrypted);
+	if (cryptStatus == kCCSuccess) {
+		//the returned NSData takes ownership of the buffer and will free it on deallocation
+		return [NSData dataWithBytesNoCopy:buffer length:numBytesEncrypted];
+	}
+    
+	free(buffer); //free the buffer;
+	return nil;
+}
+
+- (NSData *)AES256DecryptWithKey:(NSString *)key {
+	// 'key' should be 32 bytes for AES256, will be null-padded otherwise
+	char keyPtr[kCCKeySizeAES256+1]; // room for terminator (unused)
+	bzero(keyPtr, sizeof(keyPtr)); // fill with zeroes (for padding)
+	
+	// fetch key data
+	[key getCString:keyPtr maxLength:sizeof(keyPtr) encoding:NSUTF8StringEncoding];
+	
+	NSUInteger dataLength = [self length];
+	
+	//See the doc: For block ciphers, the output size will always be less than or 
+	//equal to the input size plus the size of one block.
+	//That's why we need to add the size of one block here
+	size_t bufferSize = dataLength + kCCBlockSizeAES128;
+	void *buffer = malloc(bufferSize);
+	
+	size_t numBytesDecrypted = 0;
+	CCCryptorStatus cryptStatus = CCCrypt(kCCDecrypt, kCCAlgorithmAES128, kCCOptionPKCS7Padding,
+                                          keyPtr, kCCKeySizeAES256,
+                                          NULL /* initialization vector (optional) */,
+                                          [self bytes], dataLength, /* input */
+                                          buffer, bufferSize, /* output */
+                                          &numBytesDecrypted);
+	
+	if (cryptStatus == kCCSuccess) {
+		//the returned NSData takes ownership of the buffer and will free it on deallocation
+		return [NSData dataWithBytesNoCopy:buffer length:numBytesDecrypted];
+	}
+	
+	free(buffer); //free the buffer;
+	return nil;
+}
+
+@end
+
 
 @implementation RootViewController
 
@@ -20,20 +91,6 @@
 
 @synthesize myTapRecognizer;
 @synthesize myColor;
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-		multiByteLength = 0;
-		multiBytePos = 0;
-        myColor = MKPinAnnotationColorRed;
-		memset(multiBytes, 0, sizeof(multiBytes));	
-        memset(myStr, 0, sizeof(myStr));
-    }
-    NSLog(@"Basic Init was called");
-    return self;
-}
 
 - (id)initWithCoder:(NSCoder *)aDecoder 
 {
@@ -47,35 +104,6 @@
     NSLog(@"RootViewController: Coder Init called");
     return self;
 }
-
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-		multiByteLength = 0;
-		multiBytePos = 0;
-        myColor = MKPinAnnotationColorRed;
-		memset(multiBytes, 0, sizeof(multiBytes));
-    }
-    NSLog(@"Created RootViewController");
-    return self;
-}
-
-
-/*
- // Implement loadView to create a view hierarchy programmatically, without using a nib.
- - (void)loadView {
- }
- */
-
-/*
- // Override to allow orientations other than the default portrait orientation.
- - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
- // Return YES for supported orientations
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
- }
- */
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -131,15 +159,26 @@
     MKPointAnnotation *pa = [[MKPointAnnotation alloc] init];
     pa.coordinate = touchMapCoordinate;
     
-    char buf[100] = "";
-    sprintf(buf, "%c%2d %+3.4lf %+3.4lf%c", MSG_START, myColor, touchMapCoordinate.latitude, touchMapCoordinate.longitude, MSG_END);
+    char buf[200] = "";
+    sprintf(buf, "%2d %+3.4lf %+3.4lf", myColor, touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+    
+    NSData *encrypted = [NSData dataWithBytes:buf length:strlen(buf)];
+    NSData *cipher = [encrypted AES256EncryptWithKey:[iNeedCaffeineAppDelegate getInstance].passwd];
+    NSLog(@"Encrypted: %s", [[cipher description] UTF8String]);
+
+    memset(buf, 0, sizeof(buf));
+    
+    sprintf(buf, "%c%s%c", MSG_START, [[cipher description] UTF8String], MSG_END);
 	NSLog(@"Printing:  %s", buf);
     NSLog(@"Regions is: %+3.4lf %+3.4lf ", mapView.region.span.latitudeDelta, mapView.region.span.longitudeDelta);
     NSLog(@"Lat/Long %+3.4lf/%+3.4lf", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+    
+    
+    
     [[iNeedCaffeineAppDelegate getInstance].generator writeBytes: buf
                                                           length: strlen(buf)];
     
-    [mapView addAnnotation:pa];
+    // [mapView addAnnotation:pa];
     [pa release];
 }
 
@@ -240,6 +279,13 @@
         if ([newstr compare: @"\v"] == NSOrderedSame) {
             // end of string
             NSLog(@"Got end of string %s",  myStr);
+            NSData *encrypted = [NSData dataWithBytes:myStr length:strlen(myStr)];
+            NSData *plain = [encrypted AES256DecryptWithKey:[iNeedCaffeineAppDelegate getInstance].passwd];
+            
+            memset(myStr, 0, sizeof(myStr));
+            
+            sprintf(myStr, "%s\n", [[plain description] UTF8String]);
+            
             MKPointAnnotation *pa = [[MKPointAnnotation alloc] init];
             CLLocationCoordinate2D touchMapCoordinate;
             

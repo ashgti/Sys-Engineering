@@ -38,6 +38,7 @@
 
 - (IBAction)PressMe:(id)sender
 {
+    [iNeedCaffeineAppDelegate getInstance].passwd = passwordField.text;
 	[[self navigationController] pushViewController:mapViewController animated:YES];
 }
 

@@ -17,6 +17,7 @@
 @synthesize myNavController=_myNaveController;
 @synthesize view;
 @synthesize rvc;
+@synthesize passwd;
 
 //- (void)applicationDidFinishLaunching:(UIApplication *)application
 //{

@@ -21,10 +21,11 @@
     AVAudioSession *session;
 	FSKSerialGenerator* generator;
 	FSKRecognizer* recognizer;
-    UIWindow* window;
+    UIWindow *window;
     UINavigationController *myNavController;
     LoginViewController *view;
     RootViewController *rvc;
+    NSString *passwd;
 }
 
 @property (nonatomic, retain) AVAudioSession* session;
@@ -34,6 +35,7 @@
 @property (nonatomic, retain) IBOutlet UINavigationController *myNavController;
 @property (nonatomic, retain) LoginViewController *view;
 @property (nonatomic, retain) IBOutlet RootViewController *rvc;
+@property (nonatomic, retain) NSString *passwd;
 
 + (iNeedCaffeineAppDelegate*) getInstance;
 

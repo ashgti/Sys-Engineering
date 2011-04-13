@@ -22,7 +22,7 @@
 	UITapGestureRecognizer *myTapRecognizer;
 	MKPinAnnotationColor myColor;
     
-    char myStr[100];
+    char myStr[200];
     size_t str_len;
     
 	int multiByteLength;
