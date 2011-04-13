@@ -45,6 +45,7 @@
 		memset(multiBytes, 0, sizeof(multiBytes));
     }
     NSLog(@"RootViewController: Coder Init called");
+    return self;
 }
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -138,7 +139,7 @@
     [[iNeedCaffeineAppDelegate getInstance].generator writeBytes: buf
                                                           length: strlen(buf)];
     
-    //[mapView addAnnotation:pa];
+    [mapView addAnnotation:pa];
     [pa release];
 }
 
@@ -148,6 +149,7 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *) mapView viewForAnnotation:(id ) annotation {
+    NSLog(@"mapView:viewForAnnotation: called");
     MKPinAnnotationView *customPinView = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:nil] autorelease];
     NSLog(@"Color is now %d", myColor);
     customPinView.pinColor = myColor;
@@ -194,7 +196,7 @@
 	 E0-EF 3byte
 	 F0-F7 4byte
 	 */
-	if (multiBytePos < multiByteLength){
+	if (multiBytePos < multiByteLength) {
 		multiBytes[multiBytePos++] = byte;
 		if (multiBytePos == multiByteLength){
 			multiBytes[multiBytePos] = 0;
